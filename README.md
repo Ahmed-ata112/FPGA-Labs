@@ -2,11 +2,6 @@
 # FPGA-Labs
 Solutions of the Intel [Digital Logic FPGA Academy labs ](https://fpgacademy.org/courses.html)
 
-## Authors
-
-- [@Rufaida-Kassem](https://www.github.com/Rufaida-Kassem)
-- [@Muhamed-Sayed](https://www.github.com/Muhamed-Sayed)
-- [@Ahmed-ata112](https://www.github.com/Ahmed-ata112)
 
 
 
@@ -27,3 +22,10 @@ Solutions of the Intel [Digital Logic FPGA Academy labs ](https://fpgacademy.org
 | labB |           |             |
 | labC |           |             |
 | labD |           |             |
+
+
+## Authors
+
+- [@Rufaida-Kassem](https://www.github.com/Rufaida-Kassem)
+- [@Muhamed-Sayed](https://www.github.com/Muhamed-Sayed)
+- [@Ahmed-ata112](https://www.github.com/Ahmed-ata112)
