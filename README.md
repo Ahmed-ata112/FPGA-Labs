@@ -4,7 +4,8 @@ Solutions of the Intel [Digital Logic FPGA Academy labs ](https://fpgacademy.org
 
 # Our Board
 
-![board](./assets/de0cv.jpg)
+> DE0-CV
+> ![board](./assets/de0cv.jpg)
 
 ## Documentation
 
