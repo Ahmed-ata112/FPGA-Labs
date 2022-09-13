@@ -1,28 +1,28 @@
-
 # FPGA-Labs
+
 Solutions of the Intel [Digital Logic FPGA Academy labs ](https://fpgacademy.org/courses.html)
 
+# Our Board
 
-
+![board](./assets/de0cv.jpg)
 
 ## Documentation
 
-| labs | status    | Documented? |
-|------|-----------|-------------|
-| lab1 | completed | ❌           |
-| lab2 | completed | ✅           |
-| lab3 |           |             |
-| lab4 |           |             |
-| lab5 |           |             |
-| lab6 |           |             |
-| lab7 |           |             |
-| lab8 |           |             |
-| lab9 |           |             |
-| labA |           |             |
-| labB |           |             |
-| labC |           |             |
-| labD |           |             |
-
+| Labs | Status    | Tested on board? |
+| ---- | --------- | ---------------- |
+| lab1 | completed | ❌               |
+| lab2 | completed | ✅               |
+| lab3 |           |                  |
+| lab4 |           |                  |
+| lab5 |           |                  |
+| lab6 |           |                  |
+| lab7 |           |                  |
+| lab8 |           |                  |
+| lab9 |           |                  |
+| labA |           |                  |
+| labB |           |                  |
+| labC |           |                  |
+| labD |           |                  |
 
 ## Authors
 
