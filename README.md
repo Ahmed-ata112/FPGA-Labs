@@ -1,6 +1,6 @@
 # FPGA-Labs
 
-Solutions of the Intel [Digital Logic FPGA Academy labs ](https://fpgacademy.org/courses.html) all written in VHDL and another extra labs on FPGA Timing and CDC
+Solutions of the Intel [Digital Logic FPGA Academy labs ](https://fpgacademy.org/courses.html) all written in **VHDL** and another extra labs on FPGA Timing and CDC
 
 # Our Board
 
@@ -25,7 +25,7 @@ Solutions of the Intel [Digital Logic FPGA Academy labs ](https://fpgacademy.org
 | labB                    |           |                  |
 | labC                    |           |                  |
 | labD                    |           |                  |
-| <strong>EXTRAS</strong> | --------- | ---------------- |
+| **EXTRAS** | --------- | ---------------- |
 | Timing Lab              | completed | ✅               |
 | Timing Lab              | completed | ❌               |
 
