@@ -1,0 +1,133 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab7/part2
+T_opt
+!s110 1661172415
+VLfMWz<iK0[FEFIjPAmbWc2
+Z2 04 8 5 work part2_tb bench 1
+=1-020cf0a1cd70-63037abf-40-768c
+Z3 !s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1661173923
+VN:z`=[;QIzeKln:2>bib<1
+R2
+=9-020cf0a1cd70-630380a3-142-7c80
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+Epart2
+Z6 w1661081382
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 23
+R1
+Z9 8part2.vhd
+Z10 Fpart2.vhd
+l0
+L3 1
+VY?LH?8R?33On_cFF0ZmQT2
+!s100 1zUllQ8W[>>K]d:Z9Y[An3
+Z11 OL;C;2021.2;73
+33
+Z12 !s110 1661173918
+!i10b 1
+Z13 !s108 1661173917.000000
+Z14 !s90 part2.vhd|part2_tb.vhd|-2008|
+Z15 !s107 part2_tb.vhd|part2.vhd|
+!i113 0
+Z16 o-2008
+Z17 tExplicit 1 NoCoverage 1 CvgOpt 0
+Abehavior
+R7
+R8
+DEx4 work 5 part2 0 22 Y?LH?8R?33On_cFF0ZmQT2
+!i122 23
+l20
+L11 125
+V3ebBGz:^SPX7gP[2ZkR=c3
+!s100 UV=5m<4biMQOWUBS>dC9?0
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Epart2_tb
+Z18 w1661173913
+Z19 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R7
+R8
+!i122 23
+R1
+Z20 8part2_tb.vhd
+Z21 Fpart2_tb.vhd
+l0
+L5 1
+VLN[W:HJXJXzKRGnU>hcYJ0
+!s100 jQA4<ka7kOUImSa<bk7be3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Abench
+R19
+R7
+R8
+DEx4 work 8 part2_tb 0 22 LN[W:HJXJXzKRGnU>hcYJ0
+!i122 23
+l30
+L8 123
+V3?TPEjccPc>hiTSB<LWoO1
+!s100 V]ed<h=ZScG5adDA2la@G3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17

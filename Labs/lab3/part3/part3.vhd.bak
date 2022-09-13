@@ -1,0 +1,14 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY part3 IS
+PORT ( Clk, D : IN STD_LOGIC;
+Q,Q_inv : OUT STD_LOGIC);
+END part3;
+
+ARCHITECTURE Structural OF part3 IS
+
+component part2 is 
+PORT ( Clk, D : IN STD_LOGIC;
+Q : OUT STD_LOGIC);
+end component;

@@ -1,0 +1,112 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_textio.all;
+use std.textio.all;
+LIBRARY IEEE, STD;
+
+entity part4_tb is
+end;
+
+architecture bench of part4_tb is
+
+    component part4
+        port(
+            clk     : in  std_logic;
+            reset   : in  std_logic;
+            EA      : in  std_logic;
+            EB      : in  std_logic;
+            input_n : in  std_logic_vector(7 downto 0);
+            HEX0    : out std_logic_vector(6 downto 0);
+            HEX1    : out std_logic_vector(6 downto 0);
+            HEX2    : out std_logic_vector(6 downto 0);
+            HEX3    : out std_logic_vector(6 downto 0)
+        );
+    end component;
+
+    constant num_0 : std_logic_vector(6 downto 0) := "0111111"; --40
+    constant num_1 : std_logic_vector(6 downto 0) := "0000110";
+    constant num_2 : std_logic_vector(6 downto 0) := "1011011";
+    constant num_3 : std_logic_vector(6 downto 0) := "1001111";
+    constant num_4 : std_logic_vector(6 downto 0) := "1100110";
+    constant num_5 : std_logic_vector(6 downto 0) := "1101101";
+    constant num_6 : std_logic_vector(6 downto 0) := "1111101"; -- 02
+    constant num_7 : std_logic_vector(6 downto 0) := "0000111";
+    constant num_8 : std_logic_vector(6 downto 0) := "1111111";
+    constant num_9 : std_logic_vector(6 downto 0) := "1101111";
+    constant num_A : std_logic_vector(6 downto 0) := "1110111";
+    constant num_B : std_logic_vector(6 downto 0) := "1111100";
+    constant num_C : std_logic_vector(6 downto 0) := "0111001";
+    constant num_D : std_logic_vector(6 downto 0) := "1011110";
+    constant num_E : std_logic_vector(6 downto 0) := "1111001"; -- 06
+    constant num_F : std_logic_vector(6 downto 0) := "1110001";
+
+    -- Clock period
+    constant clk_period : time := 10 ns;
+    -- Generics
+
+    -- Ports
+    signal clk     : std_logic;
+    signal reset   : std_logic;
+    signal EA      : std_logic;
+    signal EB      : std_logic;
+    signal input_n : std_logic_vector(7 downto 0);
+    signal HEX0    : std_logic_vector(6 downto 0);
+    signal HEX1    : std_logic_vector(6 downto 0);
+    signal HEX2    : std_logic_vector(6 downto 0);
+    signal HEX3    : std_logic_vector(6 downto 0);
+
+    -- alias Prod is << signal .part4_tb.part4_inst.P : std_logic_vector(15 downto 0)>>;
+
+begin
+
+    part4_inst : part4
+        port map(
+            clk     => clk,
+            reset   => reset,
+            EA      => EA,
+            EB      => EB,
+            input_n => input_n,
+            HEX0    => HEX0,
+            HEX1    => HEX1,
+            HEX2    => HEX2,
+            HEX3    => HEX3
+        );
+
+    clk_process : process
+    begin
+        clk <= '0';
+        wait for clk_period / 2;
+        clk <= '1';
+        wait for clk_period / 2;
+    end process clk_process;
+
+    process
+    begin
+        -- i change the input at the falling edge i think
+        reset   <= '0';
+        wait for clk_period;
+        reset   <= '1';
+        EA      <= '0';
+        EB      <= '1';
+        input_n <= X"0A";
+        wait for clk_period;
+        EA      <= '1';
+        EB      <= '0';
+        input_n <= X"0B";
+        wait for clk_period;
+        -- report previos results
+        report to_hstring(HEX0) severity NOTE;
+        assert HEX0 = NOT num_E report "wtnot valid" severity ERROR;
+        assert HEX1 = NOT num_6 report "wtnot valid" severity ERROR;
+        
+        
+        EA      <= '0';
+        EB      <= '0';
+        input_n <= X"0A";
+        wait for clk_period;
+
+        wait;
+    end process;
+
+end;

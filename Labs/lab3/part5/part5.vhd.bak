@@ -1,0 +1,32 @@
+-- A gated RS latch desribed the hard way
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+entity part5 is
+  port (
+    -- chose A or B then reload the input
+    chosen_num, binary_input : in std_logic;
+    SUM : out std_logic_vector(7 downto 0);
+    carry_out : out std_logic
+  );
+
+end part5;
+architecture Structural of part5 is
+  signal A : unsigned(7 downto 0);
+  signal B : unsigned(7 downto 0);
+  signal sum_with_carry : unsigned(8 downto 0);
+begin
+  process (chosen_num, binary_input)
+  begin
+    if chosen_num = '1' then
+      A <= binary_input;
+    else
+      B <= binary_input;
+    end if;
+  end process;
+
+  sum_with_carry <= unsigned('0' & A) + unsigned('0' & B);
+
+  carry_out <= std_logic(sum_with_carry(8));
+  SUM <= std_logic_vector(sum_with_carry(7 downto 0));
+end Structural;

@@ -1,0 +1,314 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab2/part1
+T_opt
+!s110 1661166203
+VD^8FXCdR7b@ASi9DmfhFn1
+Z2 04 8 5 work part1_tb bench 1
+=1-020cf0a1cd70-6303627b-182-4214
+Z3 !s124 OEM10U4 
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+T_opt1
+!s110 1661163365
+V:jUP0M^jzbkEF3QYO:=^i2
+R2
+=1-020cf0a1cd70-63035764-303-78e4
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+R1
+Phexas_pck
+<<<<<<< HEAD
+Z6 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 17
+Z9 w1661165671
+R1
+Z10 8hexas_pck.vhd
+Z11 Fhexas_pck.vhd
+=======
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+Z4 w1661164717
+R0
+Z5 8hexas_pck.vhd
+Z6 Fhexas_pck.vhd
+>>>>>>> Rufaida
+l0
+L5 1
+VTH34MGQ1dI9F=n0QG^UUE3
+!s100 `N0:9:e[?I=Md1;NT3[@C0
+Z12 OL;C;2021.2;73
+33
+<<<<<<< HEAD
+b1
+Z13 !s110 1661166188
+!i10b 1
+Z14 !s108 1661166188.000000
+Z15 !s90 hexas_pck.vhd|part1.vhd|part1_tb.vhd|seg_decoder.vhd|-2008|
+Z16 !s107 seg_decoder.vhd|part1_tb.vhd|part1.vhd|hexas_pck.vhd|
+=======
+Z8 !s110 1661164978
+!i10b 1
+Z9 !s108 1661164978.000000
+Z10 !s90 hexas_pck.vhd|part1.vhd|part1_tb.vhd|seg_decoder.vhd|-2008|
+Z11 !s107 seg_decoder.vhd|part1_tb.vhd|part1.vhd|hexas_pck.vhd|
+>>>>>>> Rufaida
+!i113 0
+Z17 o-2008
+Z18 tExplicit 1 CvgOpt 0
+Bbody
+<<<<<<< HEAD
+Z19 DPx4 work 9 hexas_pck 0 22 TH34MGQ1dI9F=n0QG^UUE3
+R6
+=======
+Z14 DPx4 work 9 hexas_pck 0 22 Li4^U9WBVX91YoTJ<=iKP3
+R1
+R2
+R3
+!i122 5
+l0
+Z15 L32 1
+Z16 V@2>=OeD]:;k49SYiM5EK40
+Z17 !s100 HS528J?l24a>J0iXF1BSj1
+>>>>>>> Rufaida
+R7
+R8
+!i122 17
+l0
+L14 1
+V^o=[0:eDB8CMJW:g;C1E^3
+!s100 SNWmG:abHQ@D81IXNRWX02
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Epart1
+<<<<<<< HEAD
+Z20 w1661158947
+R7
+R8
+!i122 17
+R1
+Z21 8part1.vhd
+Z22 Fpart1.vhd
+=======
+Z18 w1661158947
+R2
+R3
+!i122 5
+R0
+Z19 8part1.vhd
+Z20 Fpart1.vhd
+>>>>>>> Rufaida
+l0
+L3 1
+V5SGGFTgze96QaYWG>Uh`]3
+!s100 [hFKTfD@4UHT305f<a@_d0
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Abehavior
+<<<<<<< HEAD
+=======
+R2
+R3
+Z21 DEx4 work 5 part1 0 22 5SGGFTgze96QaYWG>Uh`]3
+!i122 5
+l18
+Z22 L10 13
+Z23 V54dIH;m14;JM1Lm_<ka7<1
+Z24 !s100 U^Y9405XVcji[=4I^OPGz3
+>>>>>>> Rufaida
+R7
+R8
+DEx4 work 5 part1 0 22 5SGGFTgze96QaYWG>Uh`]3
+!i122 17
+l18
+L10 13
+V54dIH;m14;JM1Lm_<ka7<1
+!s100 U^Y9405XVcji[=4I^OPGz3
+R12
+33
+R13
+<<<<<<< HEAD
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Epart1_tb
+Z23 w1661165872
+R19
+Z24 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R6
+R7
+R8
+!i122 17
+R1
+Z25 8part1_tb.vhd
+Z26 Fpart1_tb.vhd
+=======
+Epart1_tb
+R4
+R14
+Z25 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R1
+R2
+R3
+!i122 5
+R0
+Z26 8part1_tb.vhd
+Z27 Fpart1_tb.vhd
+>>>>>>> Rufaida
+l0
+L7 1
+VcHQh4l<;BGPYPCDk7JVzO0
+!s100 [Xl[NU6M_nzeXmh?7MXQd2
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Abench
+<<<<<<< HEAD
+R19
+R24
+R6
+=======
+R14
+R25
+R1
+R2
+R3
+Z28 DEx4 work 8 part1_tb 0 22 cHQh4l<;BGPYPCDk7JVzO0
+!i122 5
+l31
+Z29 L10 43
+V93<G8LCV4@7boVOc2d`UQ0
+!s100 AFEaoXlke6ezU9VYdaN2=3
+>>>>>>> Rufaida
+R7
+R8
+DEx4 work 8 part1_tb 0 22 cHQh4l<;BGPYPCDk7JVzO0
+!i122 17
+l33
+L10 59
+Vofj]nl`bUb@`JPTT1Z^Ml2
+!s100 1W9RmKcnDAIb8;Ei><oB63
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Eseg_decoder
+<<<<<<< HEAD
+Z27 w1661164903
+R7
+R8
+!i122 17
+R1
+Z28 8seg_decoder.vhd
+Z29 Fseg_decoder.vhd
+=======
+Z30 w1661164903
+R2
+R3
+!i122 5
+R0
+Z31 8seg_decoder.vhd
+Z32 Fseg_decoder.vhd
+>>>>>>> Rufaida
+l0
+L4 1
+VaC:kM8I7Yf7<e_2V4MmI80
+!s100 ]l3N^J^C3B1WbnZVXS8N:3
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Abehavior
+<<<<<<< HEAD
+R7
+R8
+DEx4 work 11 seg_decoder 0 22 aC:kM8I7Yf7<e_2V4MmI80
+!i122 17
+l11
+L10 20
+VO0LELSWHFEl>i1^Va4hWE3
+!s100 1]:zk7j5?]7IH[nIhPQ>Z1
+R12
+=======
+R2
+R3
+Z33 DEx4 work 11 seg_decoder 0 22 aC:kM8I7Yf7<e_2V4MmI80
+!i122 5
+l11
+Z34 L10 20
+Z35 VO0LELSWHFEl>i1^Va4hWE3
+Z36 !s100 1]:zk7j5?]7IH[nIhPQ>Z1
+R7
+>>>>>>> Rufaida
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18

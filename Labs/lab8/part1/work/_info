@@ -1,0 +1,175 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab9/part1
+T_opt
+!s110 1662310811
+VL<M`_niLhmPgR1TgD18DF2
+04 7 3 work ram32x4 syn 1
+=1-020cf0a1cd70-6314d99a-3c3-10b68
+!s124 OEM10U1 
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1662310818
+V<4j<aM47MzifmcHAYT=lb0
+Z5 04 12 3 work p1_testbench rtl 1
+=1-020cf0a1cd70-6314d9a1-3ad-11584
+Z6 !s124 OEM10U3 
+R2
+R3
+n@_opt1
+R4
+R1
+T_opt2
+!s110 1662310877
+V_13II8S[D=B]50:k^[WXf0
+R5
+=1-020cf0a1cd70-6314d9dd-f8-9018
+R6
+o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt2
+R4
+Elab9_part1
+Z7 w1662309585
+Z8 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z11 8part1.vhd
+Z12 Fpart1.vhd
+l0
+L7 1
+Vd;`NXkke?ac@R__EkYc9F2
+!s100 MNMIWDAaKBi99`JYYWjMR0
+Z13 OL;C;2021.2;73
+33
+Z14 !s110 1662310786
+!i10b 1
+Z15 !s108 1662310786.000000
+Z16 !s90 part1.vhd|part1_tb.vhd|ram32x4.vhd|-2008|
+Z17 !s107 ram32x4.vhd|part1_tb.vhd|part1.vhd|
+!i113 0
+Z18 o-2008
+Z19 tExplicit 1 CvgOpt 0
+Artl
+R8
+R9
+R10
+Z20 DEx4 work 10 lab9_part1 0 22 d;`NXkke?ac@R__EkYc9F2
+!i122 0
+l28
+L17 23
+V2FNXd<lWc_?^9AESaHJO>0
+!s100 nVI`^A73;e0z`zKNGfBJ@2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Ep1_testbench
+Z21 w1662310680
+R9
+R10
+!i122 0
+R1
+Z22 8part1_tb.vhd
+Z23 Fpart1_tb.vhd
+l0
+L4 1
+VJl[iR7]KQ1eJO2Te@ikbW3
+!s100 h5PE^ec]]67ATfeR;C52a2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Artl
+R8
+R20
+R9
+R10
+DEx4 work 12 p1_testbench 0 22 Jl[iR7]KQ1eJO2Te@ikbW3
+!i122 0
+l13
+L7 46
+VPn;1JmYR[Jjd?a`[:cAeE3
+!s100 j5?iKY^i^Bz@QRDXTOTQ43
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Eram32x4
+Z24 w1661111958
+Z25 DPx9 altera_mf 20 altera_mf_components 0 22 ]lNNOhZAaJdOEiLn>GIkV3
+R9
+R10
+!i122 0
+R1
+Z26 8ram32x4.vhd
+Z27 Fram32x4.vhd
+l0
+L43 1
+VV=CcPN`0WH82VXNRAKdVh1
+!s100 3<Y4N>RfzVJ`2TWR<S_A?3
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Asyn
+R25
+R9
+R10
+DEx4 work 7 ram32x4 0 22 V=CcPN`0WH82VXNRAKdVh1
+!i122 0
+l59
+L55 35
+V9a;DR>4JlEY5@bTfPQJNG0
+!s100 >9<bR`iH^njP>0UgSiPe80
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19

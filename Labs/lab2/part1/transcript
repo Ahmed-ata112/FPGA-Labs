@@ -1,0 +1,1874 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+<<<<<<< HEAD
+# OpenFile ./part1_tb.vhd
+vsim work.part1_tb
+# vsim work.part1_tb 
+# Start time: 13:03:23 on Aug 22,2022
+=======
+# OpenFile part1_tb.vhd
+vsim work.part1_tb
+# vsim work.part1_tb 
+# Start time: 11:27:48 on Aug 22,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.hexas_pck(body)
+# Loading work.part1_tb(bench)#1
+add wave -position end  sim:/part1_tb/HEX0
+add wave -position end  sim:/part1_tb/HEX1
+add wave -position end  sim:/part1_tb/N0
+add wave -position end  sim:/part1_tb/N1
+run
+# ** Note: at time : 2 ns HEX0 = 40 and HEX1= 40
+#    Time: 2 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 4 ns HEX0 = 40 and HEX1= 79
+#    Time: 4 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 6 ns HEX0 = 40 and HEX1= 24
+#    Time: 6 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 8 ns HEX0 = 40 and HEX1= 30
+#    Time: 8 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 10 ns HEX0 = 40 and HEX1= 19
+#    Time: 10 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 12 ns HEX0 = 40 and HEX1= 12
+#    Time: 12 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 14 ns HEX0 = 40 and HEX1= 02
+#    Time: 14 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 16 ns HEX0 = 40 and HEX1= 78
+#    Time: 16 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 18 ns HEX0 = 40 and HEX1= 00
+#    Time: 18 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 20 ns HEX0 = 40 and HEX1= 10
+#    Time: 20 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 22 ns HEX0 = 79 and HEX1= 40
+#    Time: 22 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 24 ns HEX0 = 79 and HEX1= 79
+#    Time: 24 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 26 ns HEX0 = 79 and HEX1= 24
+#    Time: 26 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 28 ns HEX0 = 79 and HEX1= 30
+#    Time: 28 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 30 ns HEX0 = 79 and HEX1= 19
+#    Time: 30 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 32 ns HEX0 = 79 and HEX1= 12
+#    Time: 32 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 34 ns HEX0 = 79 and HEX1= 02
+#    Time: 34 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 36 ns HEX0 = 79 and HEX1= 78
+#    Time: 36 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 38 ns HEX0 = 79 and HEX1= 00
+#    Time: 38 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 40 ns HEX0 = 79 and HEX1= 10
+#    Time: 40 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 42 ns HEX0 = 24 and HEX1= 40
+#    Time: 42 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 44 ns HEX0 = 24 and HEX1= 79
+#    Time: 44 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 46 ns HEX0 = 24 and HEX1= 24
+#    Time: 46 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 48 ns HEX0 = 24 and HEX1= 30
+#    Time: 48 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 50 ns HEX0 = 24 and HEX1= 19
+#    Time: 50 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 52 ns HEX0 = 24 and HEX1= 12
+#    Time: 52 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 54 ns HEX0 = 24 and HEX1= 02
+#    Time: 54 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 56 ns HEX0 = 24 and HEX1= 78
+#    Time: 56 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 58 ns HEX0 = 24 and HEX1= 00
+#    Time: 58 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 60 ns HEX0 = 24 and HEX1= 10
+#    Time: 60 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 62 ns HEX0 = 30 and HEX1= 40
+#    Time: 62 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 64 ns HEX0 = 30 and HEX1= 79
+#    Time: 64 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 66 ns HEX0 = 30 and HEX1= 24
+#    Time: 66 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 68 ns HEX0 = 30 and HEX1= 30
+#    Time: 68 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 70 ns HEX0 = 30 and HEX1= 19
+#    Time: 70 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 72 ns HEX0 = 30 and HEX1= 12
+#    Time: 72 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 74 ns HEX0 = 30 and HEX1= 02
+#    Time: 74 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 76 ns HEX0 = 30 and HEX1= 78
+#    Time: 76 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 78 ns HEX0 = 30 and HEX1= 00
+#    Time: 78 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 80 ns HEX0 = 30 and HEX1= 10
+#    Time: 80 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 82 ns HEX0 = 19 and HEX1= 40
+#    Time: 82 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 84 ns HEX0 = 19 and HEX1= 79
+#    Time: 84 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 86 ns HEX0 = 19 and HEX1= 24
+#    Time: 86 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 88 ns HEX0 = 19 and HEX1= 30
+#    Time: 88 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 90 ns HEX0 = 19 and HEX1= 19
+#    Time: 90 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 92 ns HEX0 = 19 and HEX1= 12
+#    Time: 92 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 94 ns HEX0 = 19 and HEX1= 02
+#    Time: 94 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 96 ns HEX0 = 19 and HEX1= 78
+#    Time: 96 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 98 ns HEX0 = 19 and HEX1= 00
+#    Time: 98 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 100 ns HEX0 = 19 and HEX1= 10
+#    Time: 100 ns  Iteration: 0  Instance: /part1_tb
+run
+# ** Note: at time : 102 ns HEX0 = 12 and HEX1= 40
+#    Time: 102 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 104 ns HEX0 = 12 and HEX1= 79
+#    Time: 104 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 106 ns HEX0 = 12 and HEX1= 24
+#    Time: 106 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 108 ns HEX0 = 12 and HEX1= 30
+#    Time: 108 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 110 ns HEX0 = 12 and HEX1= 19
+#    Time: 110 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 112 ns HEX0 = 12 and HEX1= 12
+#    Time: 112 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 114 ns HEX0 = 12 and HEX1= 02
+#    Time: 114 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 116 ns HEX0 = 12 and HEX1= 78
+#    Time: 116 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 118 ns HEX0 = 12 and HEX1= 00
+#    Time: 118 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 120 ns HEX0 = 12 and HEX1= 10
+#    Time: 120 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 122 ns HEX0 = 02 and HEX1= 40
+#    Time: 122 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 124 ns HEX0 = 02 and HEX1= 79
+#    Time: 124 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 126 ns HEX0 = 02 and HEX1= 24
+#    Time: 126 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 128 ns HEX0 = 02 and HEX1= 30
+#    Time: 128 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 130 ns HEX0 = 02 and HEX1= 19
+#    Time: 130 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 132 ns HEX0 = 02 and HEX1= 12
+#    Time: 132 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 134 ns HEX0 = 02 and HEX1= 02
+#    Time: 134 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 136 ns HEX0 = 02 and HEX1= 78
+#    Time: 136 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 138 ns HEX0 = 02 and HEX1= 00
+#    Time: 138 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 140 ns HEX0 = 02 and HEX1= 10
+#    Time: 140 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 142 ns HEX0 = 78 and HEX1= 40
+#    Time: 142 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 144 ns HEX0 = 78 and HEX1= 79
+#    Time: 144 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 146 ns HEX0 = 78 and HEX1= 24
+#    Time: 146 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 148 ns HEX0 = 78 and HEX1= 30
+#    Time: 148 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 150 ns HEX0 = 78 and HEX1= 19
+#    Time: 150 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 152 ns HEX0 = 78 and HEX1= 12
+#    Time: 152 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 154 ns HEX0 = 78 and HEX1= 02
+#    Time: 154 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 156 ns HEX0 = 78 and HEX1= 78
+#    Time: 156 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 158 ns HEX0 = 78 and HEX1= 00
+#    Time: 158 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 160 ns HEX0 = 78 and HEX1= 10
+#    Time: 160 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 162 ns HEX0 = 00 and HEX1= 40
+#    Time: 162 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 164 ns HEX0 = 00 and HEX1= 79
+#    Time: 164 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 166 ns HEX0 = 00 and HEX1= 24
+#    Time: 166 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 168 ns HEX0 = 00 and HEX1= 30
+#    Time: 168 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 170 ns HEX0 = 00 and HEX1= 19
+#    Time: 170 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 172 ns HEX0 = 00 and HEX1= 12
+#    Time: 172 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 174 ns HEX0 = 00 and HEX1= 02
+#    Time: 174 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 176 ns HEX0 = 00 and HEX1= 78
+#    Time: 176 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 178 ns HEX0 = 00 and HEX1= 00
+#    Time: 178 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 180 ns HEX0 = 00 and HEX1= 10
+#    Time: 180 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 182 ns HEX0 = 10 and HEX1= 40
+#    Time: 182 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 184 ns HEX0 = 10 and HEX1= 79
+#    Time: 184 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 186 ns HEX0 = 10 and HEX1= 24
+#    Time: 186 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 188 ns HEX0 = 10 and HEX1= 30
+#    Time: 188 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 190 ns HEX0 = 10 and HEX1= 19
+#    Time: 190 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 192 ns HEX0 = 10 and HEX1= 12
+#    Time: 192 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 194 ns HEX0 = 10 and HEX1= 02
+#    Time: 194 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 196 ns HEX0 = 10 and HEX1= 78
+#    Time: 196 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 198 ns HEX0 = 10 and HEX1= 00
+#    Time: 198 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 200 ns HEX0 = 10 and HEX1= 10
+#    Time: 200 ns  Iteration: 0  Instance: /part1_tb
+run
+# ** Note: at time : 202 ns HEX0 = 40 and HEX1= 40
+#    Time: 202 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 204 ns HEX0 = 40 and HEX1= 79
+#    Time: 204 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 206 ns HEX0 = 40 and HEX1= 24
+#    Time: 206 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 208 ns HEX0 = 40 and HEX1= 30
+#    Time: 208 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 210 ns HEX0 = 40 and HEX1= 19
+#    Time: 210 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 212 ns HEX0 = 40 and HEX1= 12
+#    Time: 212 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 214 ns HEX0 = 40 and HEX1= 02
+#    Time: 214 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 216 ns HEX0 = 40 and HEX1= 78
+#    Time: 216 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 218 ns HEX0 = 40 and HEX1= 00
+#    Time: 218 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 220 ns HEX0 = 40 and HEX1= 10
+#    Time: 220 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 222 ns HEX0 = 79 and HEX1= 40
+#    Time: 222 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 224 ns HEX0 = 79 and HEX1= 79
+#    Time: 224 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 226 ns HEX0 = 79 and HEX1= 24
+#    Time: 226 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 228 ns HEX0 = 79 and HEX1= 30
+#    Time: 228 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 230 ns HEX0 = 79 and HEX1= 19
+#    Time: 230 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 232 ns HEX0 = 79 and HEX1= 12
+#    Time: 232 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 234 ns HEX0 = 79 and HEX1= 02
+#    Time: 234 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 236 ns HEX0 = 79 and HEX1= 78
+#    Time: 236 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 238 ns HEX0 = 79 and HEX1= 00
+#    Time: 238 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 240 ns HEX0 = 79 and HEX1= 10
+#    Time: 240 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 242 ns HEX0 = 24 and HEX1= 40
+#    Time: 242 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 244 ns HEX0 = 24 and HEX1= 79
+#    Time: 244 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 246 ns HEX0 = 24 and HEX1= 24
+#    Time: 246 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 248 ns HEX0 = 24 and HEX1= 30
+#    Time: 248 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 250 ns HEX0 = 24 and HEX1= 19
+#    Time: 250 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 252 ns HEX0 = 24 and HEX1= 12
+#    Time: 252 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 254 ns HEX0 = 24 and HEX1= 02
+#    Time: 254 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 256 ns HEX0 = 24 and HEX1= 78
+#    Time: 256 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 258 ns HEX0 = 24 and HEX1= 00
+#    Time: 258 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 260 ns HEX0 = 24 and HEX1= 10
+#    Time: 260 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 262 ns HEX0 = 30 and HEX1= 40
+#    Time: 262 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 264 ns HEX0 = 30 and HEX1= 79
+#    Time: 264 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 266 ns HEX0 = 30 and HEX1= 24
+#    Time: 266 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 268 ns HEX0 = 30 and HEX1= 30
+#    Time: 268 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 270 ns HEX0 = 30 and HEX1= 19
+#    Time: 270 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 272 ns HEX0 = 30 and HEX1= 12
+#    Time: 272 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 274 ns HEX0 = 30 and HEX1= 02
+#    Time: 274 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 276 ns HEX0 = 30 and HEX1= 78
+#    Time: 276 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 278 ns HEX0 = 30 and HEX1= 00
+#    Time: 278 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 280 ns HEX0 = 30 and HEX1= 10
+#    Time: 280 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 282 ns HEX0 = 19 and HEX1= 40
+#    Time: 282 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 284 ns HEX0 = 19 and HEX1= 79
+#    Time: 284 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 286 ns HEX0 = 19 and HEX1= 24
+#    Time: 286 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 288 ns HEX0 = 19 and HEX1= 30
+#    Time: 288 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 290 ns HEX0 = 19 and HEX1= 19
+#    Time: 290 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 292 ns HEX0 = 19 and HEX1= 12
+#    Time: 292 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 294 ns HEX0 = 19 and HEX1= 02
+#    Time: 294 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 296 ns HEX0 = 19 and HEX1= 78
+#    Time: 296 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 298 ns HEX0 = 19 and HEX1= 00
+#    Time: 298 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 300 ns HEX0 = 19 and HEX1= 10
+#    Time: 300 ns  Iteration: 0  Instance: /part1_tb
+run
+# ** Note: at time : 302 ns HEX0 = 12 and HEX1= 40
+#    Time: 302 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 304 ns HEX0 = 12 and HEX1= 79
+#    Time: 304 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 306 ns HEX0 = 12 and HEX1= 24
+#    Time: 306 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 308 ns HEX0 = 12 and HEX1= 30
+#    Time: 308 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 310 ns HEX0 = 12 and HEX1= 19
+#    Time: 310 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 312 ns HEX0 = 12 and HEX1= 12
+#    Time: 312 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 314 ns HEX0 = 12 and HEX1= 02
+#    Time: 314 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 316 ns HEX0 = 12 and HEX1= 78
+#    Time: 316 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 318 ns HEX0 = 12 and HEX1= 00
+#    Time: 318 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 320 ns HEX0 = 12 and HEX1= 10
+#    Time: 320 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 322 ns HEX0 = 02 and HEX1= 40
+#    Time: 322 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 324 ns HEX0 = 02 and HEX1= 79
+#    Time: 324 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 326 ns HEX0 = 02 and HEX1= 24
+#    Time: 326 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 328 ns HEX0 = 02 and HEX1= 30
+#    Time: 328 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 330 ns HEX0 = 02 and HEX1= 19
+#    Time: 330 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 332 ns HEX0 = 02 and HEX1= 12
+#    Time: 332 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 334 ns HEX0 = 02 and HEX1= 02
+#    Time: 334 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 336 ns HEX0 = 02 and HEX1= 78
+#    Time: 336 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 338 ns HEX0 = 02 and HEX1= 00
+#    Time: 338 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 340 ns HEX0 = 02 and HEX1= 10
+#    Time: 340 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 342 ns HEX0 = 78 and HEX1= 40
+#    Time: 342 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 344 ns HEX0 = 78 and HEX1= 79
+#    Time: 344 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 346 ns HEX0 = 78 and HEX1= 24
+#    Time: 346 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 348 ns HEX0 = 78 and HEX1= 30
+#    Time: 348 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 350 ns HEX0 = 78 and HEX1= 19
+#    Time: 350 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 352 ns HEX0 = 78 and HEX1= 12
+#    Time: 352 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 354 ns HEX0 = 78 and HEX1= 02
+#    Time: 354 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 356 ns HEX0 = 78 and HEX1= 78
+#    Time: 356 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 358 ns HEX0 = 78 and HEX1= 00
+#    Time: 358 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 360 ns HEX0 = 78 and HEX1= 10
+#    Time: 360 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 362 ns HEX0 = 00 and HEX1= 40
+#    Time: 362 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 364 ns HEX0 = 00 and HEX1= 79
+#    Time: 364 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 366 ns HEX0 = 00 and HEX1= 24
+#    Time: 366 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 368 ns HEX0 = 00 and HEX1= 30
+#    Time: 368 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 370 ns HEX0 = 00 and HEX1= 19
+#    Time: 370 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 372 ns HEX0 = 00 and HEX1= 12
+#    Time: 372 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 374 ns HEX0 = 00 and HEX1= 02
+#    Time: 374 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 376 ns HEX0 = 00 and HEX1= 78
+#    Time: 376 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 378 ns HEX0 = 00 and HEX1= 00
+#    Time: 378 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 380 ns HEX0 = 00 and HEX1= 10
+#    Time: 380 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 382 ns HEX0 = 10 and HEX1= 40
+#    Time: 382 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 384 ns HEX0 = 10 and HEX1= 79
+#    Time: 384 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 386 ns HEX0 = 10 and HEX1= 24
+#    Time: 386 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 388 ns HEX0 = 10 and HEX1= 30
+#    Time: 388 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 390 ns HEX0 = 10 and HEX1= 19
+#    Time: 390 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 392 ns HEX0 = 10 and HEX1= 12
+#    Time: 392 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 394 ns HEX0 = 10 and HEX1= 02
+#    Time: 394 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 396 ns HEX0 = 10 and HEX1= 78
+#    Time: 396 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 398 ns HEX0 = 10 and HEX1= 00
+#    Time: 398 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 400 ns HEX0 = 10 and HEX1= 10
+#    Time: 400 ns  Iteration: 0  Instance: /part1_tb
+vsim -voptargs=+acc work.part1_tb
+# End time: 11:32:19 on Aug 22,2022, Elapsed time: 0:04:31
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.part1_tb 
+# Start time: 11:32:19 on Aug 22,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.hexas_pck(body)
+# Loading work.part1_tb(bench)#1
+# Loading work.part1(behavior)#1
+# Loading work.seg_decoder(behavior)#1
+add wave -position end  sim:/part1_tb/HEX0
+add wave -position end  sim:/part1_tb/HEX1
+add wave -position end  sim:/part1_tb/N0
+add wave -position end  sim:/part1_tb/N1
+run
+# ** Note: at time : 2 ns HEX0 = 40 and HEX1= 40
+#    Time: 2 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 2 ns HEX0 NOT VALID
+#    Time: 2 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 2 ns HEX1 NOT VALID
+#    Time: 2 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 4 ns HEX0 = 40 and HEX1= 79
+#    Time: 4 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 4 ns HEX0 NOT VALID
+#    Time: 4 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 4 ns HEX1 NOT VALID
+#    Time: 4 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 6 ns HEX0 = 40 and HEX1= 24
+#    Time: 6 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 6 ns HEX0 NOT VALID
+#    Time: 6 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 6 ns HEX1 NOT VALID
+#    Time: 6 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 8 ns HEX0 = 40 and HEX1= 30
+#    Time: 8 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 8 ns HEX0 NOT VALID
+#    Time: 8 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 8 ns HEX1 NOT VALID
+#    Time: 8 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 10 ns HEX0 = 40 and HEX1= 19
+#    Time: 10 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 10 ns HEX0 NOT VALID
+#    Time: 10 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 10 ns HEX1 NOT VALID
+#    Time: 10 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 12 ns HEX0 = 40 and HEX1= 12
+#    Time: 12 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 12 ns HEX0 NOT VALID
+#    Time: 12 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 12 ns HEX1 NOT VALID
+#    Time: 12 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 14 ns HEX0 = 40 and HEX1= 02
+#    Time: 14 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 14 ns HEX0 NOT VALID
+#    Time: 14 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 14 ns HEX1 NOT VALID
+#    Time: 14 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 16 ns HEX0 = 40 and HEX1= 78
+#    Time: 16 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 16 ns HEX0 NOT VALID
+#    Time: 16 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 16 ns HEX1 NOT VALID
+#    Time: 16 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 18 ns HEX0 = 40 and HEX1= 00
+#    Time: 18 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 18 ns HEX0 NOT VALID
+#    Time: 18 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 18 ns HEX1 NOT VALID
+#    Time: 18 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 20 ns HEX0 = 40 and HEX1= 10
+#    Time: 20 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 20 ns HEX0 NOT VALID
+#    Time: 20 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 20 ns HEX1 NOT VALID
+#    Time: 20 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 22 ns HEX0 = 79 and HEX1= 40
+#    Time: 22 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 22 ns HEX0 NOT VALID
+#    Time: 22 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 22 ns HEX1 NOT VALID
+#    Time: 22 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 24 ns HEX0 = 79 and HEX1= 79
+#    Time: 24 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 24 ns HEX0 NOT VALID
+#    Time: 24 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 24 ns HEX1 NOT VALID
+#    Time: 24 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 26 ns HEX0 = 79 and HEX1= 24
+#    Time: 26 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 26 ns HEX0 NOT VALID
+#    Time: 26 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 26 ns HEX1 NOT VALID
+#    Time: 26 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 28 ns HEX0 = 79 and HEX1= 30
+#    Time: 28 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 28 ns HEX0 NOT VALID
+#    Time: 28 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 28 ns HEX1 NOT VALID
+#    Time: 28 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 30 ns HEX0 = 79 and HEX1= 19
+#    Time: 30 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 30 ns HEX0 NOT VALID
+#    Time: 30 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 30 ns HEX1 NOT VALID
+#    Time: 30 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 32 ns HEX0 = 79 and HEX1= 12
+#    Time: 32 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 32 ns HEX0 NOT VALID
+#    Time: 32 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 32 ns HEX1 NOT VALID
+#    Time: 32 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 34 ns HEX0 = 79 and HEX1= 02
+#    Time: 34 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 34 ns HEX0 NOT VALID
+#    Time: 34 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 34 ns HEX1 NOT VALID
+#    Time: 34 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 36 ns HEX0 = 79 and HEX1= 78
+#    Time: 36 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 36 ns HEX0 NOT VALID
+#    Time: 36 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 36 ns HEX1 NOT VALID
+#    Time: 36 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 38 ns HEX0 = 79 and HEX1= 00
+#    Time: 38 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 38 ns HEX0 NOT VALID
+#    Time: 38 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 38 ns HEX1 NOT VALID
+#    Time: 38 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 40 ns HEX0 = 79 and HEX1= 10
+#    Time: 40 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 40 ns HEX0 NOT VALID
+#    Time: 40 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 40 ns HEX1 NOT VALID
+#    Time: 40 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 42 ns HEX0 = 24 and HEX1= 40
+#    Time: 42 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 42 ns HEX0 NOT VALID
+#    Time: 42 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 42 ns HEX1 NOT VALID
+#    Time: 42 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 44 ns HEX0 = 24 and HEX1= 79
+#    Time: 44 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 44 ns HEX0 NOT VALID
+#    Time: 44 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 44 ns HEX1 NOT VALID
+#    Time: 44 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 46 ns HEX0 = 24 and HEX1= 24
+#    Time: 46 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 46 ns HEX0 NOT VALID
+#    Time: 46 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 46 ns HEX1 NOT VALID
+#    Time: 46 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 48 ns HEX0 = 24 and HEX1= 30
+#    Time: 48 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 48 ns HEX0 NOT VALID
+#    Time: 48 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 48 ns HEX1 NOT VALID
+#    Time: 48 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 50 ns HEX0 = 24 and HEX1= 19
+#    Time: 50 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 50 ns HEX0 NOT VALID
+#    Time: 50 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 50 ns HEX1 NOT VALID
+#    Time: 50 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 52 ns HEX0 = 24 and HEX1= 12
+#    Time: 52 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 52 ns HEX0 NOT VALID
+#    Time: 52 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 52 ns HEX1 NOT VALID
+#    Time: 52 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 54 ns HEX0 = 24 and HEX1= 02
+#    Time: 54 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 54 ns HEX0 NOT VALID
+#    Time: 54 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 54 ns HEX1 NOT VALID
+#    Time: 54 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 56 ns HEX0 = 24 and HEX1= 78
+#    Time: 56 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 56 ns HEX0 NOT VALID
+#    Time: 56 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 56 ns HEX1 NOT VALID
+#    Time: 56 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 58 ns HEX0 = 24 and HEX1= 00
+#    Time: 58 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 58 ns HEX0 NOT VALID
+#    Time: 58 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 58 ns HEX1 NOT VALID
+#    Time: 58 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 60 ns HEX0 = 24 and HEX1= 10
+#    Time: 60 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 60 ns HEX0 NOT VALID
+#    Time: 60 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 60 ns HEX1 NOT VALID
+#    Time: 60 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 62 ns HEX0 = 30 and HEX1= 40
+#    Time: 62 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 62 ns HEX0 NOT VALID
+#    Time: 62 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 62 ns HEX1 NOT VALID
+#    Time: 62 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 64 ns HEX0 = 30 and HEX1= 79
+#    Time: 64 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 64 ns HEX0 NOT VALID
+#    Time: 64 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 64 ns HEX1 NOT VALID
+#    Time: 64 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 66 ns HEX0 = 30 and HEX1= 24
+#    Time: 66 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 66 ns HEX0 NOT VALID
+#    Time: 66 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 66 ns HEX1 NOT VALID
+#    Time: 66 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 68 ns HEX0 = 30 and HEX1= 30
+#    Time: 68 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 68 ns HEX0 NOT VALID
+#    Time: 68 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 68 ns HEX1 NOT VALID
+#    Time: 68 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 70 ns HEX0 = 30 and HEX1= 19
+#    Time: 70 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 70 ns HEX0 NOT VALID
+#    Time: 70 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 70 ns HEX1 NOT VALID
+#    Time: 70 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 72 ns HEX0 = 30 and HEX1= 12
+#    Time: 72 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 72 ns HEX0 NOT VALID
+#    Time: 72 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 72 ns HEX1 NOT VALID
+#    Time: 72 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 74 ns HEX0 = 30 and HEX1= 02
+#    Time: 74 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 74 ns HEX0 NOT VALID
+#    Time: 74 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 74 ns HEX1 NOT VALID
+#    Time: 74 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 76 ns HEX0 = 30 and HEX1= 78
+#    Time: 76 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 76 ns HEX0 NOT VALID
+#    Time: 76 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 76 ns HEX1 NOT VALID
+#    Time: 76 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 78 ns HEX0 = 30 and HEX1= 00
+#    Time: 78 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 78 ns HEX0 NOT VALID
+#    Time: 78 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 78 ns HEX1 NOT VALID
+#    Time: 78 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 80 ns HEX0 = 30 and HEX1= 10
+#    Time: 80 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 80 ns HEX0 NOT VALID
+#    Time: 80 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 80 ns HEX1 NOT VALID
+#    Time: 80 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 82 ns HEX0 = 19 and HEX1= 40
+#    Time: 82 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 82 ns HEX0 NOT VALID
+#    Time: 82 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 82 ns HEX1 NOT VALID
+#    Time: 82 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 84 ns HEX0 = 19 and HEX1= 79
+#    Time: 84 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 84 ns HEX0 NOT VALID
+#    Time: 84 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 84 ns HEX1 NOT VALID
+#    Time: 84 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 86 ns HEX0 = 19 and HEX1= 24
+#    Time: 86 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 86 ns HEX0 NOT VALID
+#    Time: 86 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 86 ns HEX1 NOT VALID
+#    Time: 86 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 88 ns HEX0 = 19 and HEX1= 30
+#    Time: 88 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 88 ns HEX0 NOT VALID
+#    Time: 88 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 88 ns HEX1 NOT VALID
+#    Time: 88 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 90 ns HEX0 = 19 and HEX1= 19
+#    Time: 90 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 90 ns HEX0 NOT VALID
+#    Time: 90 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 90 ns HEX1 NOT VALID
+#    Time: 90 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 92 ns HEX0 = 19 and HEX1= 12
+#    Time: 92 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 92 ns HEX0 NOT VALID
+#    Time: 92 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 92 ns HEX1 NOT VALID
+#    Time: 92 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 94 ns HEX0 = 19 and HEX1= 02
+#    Time: 94 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 94 ns HEX0 NOT VALID
+#    Time: 94 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 94 ns HEX1 NOT VALID
+#    Time: 94 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 96 ns HEX0 = 19 and HEX1= 78
+#    Time: 96 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 96 ns HEX0 NOT VALID
+#    Time: 96 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 96 ns HEX1 NOT VALID
+#    Time: 96 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 98 ns HEX0 = 19 and HEX1= 00
+#    Time: 98 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 98 ns HEX0 NOT VALID
+#    Time: 98 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 98 ns HEX1 NOT VALID
+#    Time: 98 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 100 ns HEX0 = 19 and HEX1= 10
+#    Time: 100 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 100 ns HEX0 NOT VALID
+#    Time: 100 ns  Iteration: 0  Instance: /part1_tb
+# ** Error: at time : 100 ns HEX1 NOT VALID
+#    Time: 100 ns  Iteration: 0  Instance: /part1_tb
+vsim -voptargs=+acc work.part1_tb
+# End time: 11:35:01 on Aug 22,2022, Elapsed time: 0:02:42
+# Errors: 100, Warnings: 0
+# vsim -voptargs="+acc" work.part1_tb 
+# Start time: 11:35:01 on Aug 22,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.hexas_pck(body)
+# Loading work.part1_tb(bench)#1
+# Loading work.part1(behavior)#1
+# Loading work.seg_decoder(behavior)#1
+add wave -position end  sim:/part1_tb/HEX0
+add wave -position end  sim:/part1_tb/HEX1
+add wave -position end  sim:/part1_tb/N0
+add wave -position end  sim:/part1_tb/N1
+run
+# ** Note: at time : 2 ns HEX0 = 40 and HEX1= 40
+#    Time: 2 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 4 ns HEX0 = 40 and HEX1= 79
+#    Time: 4 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 6 ns HEX0 = 40 and HEX1= 24
+#    Time: 6 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 8 ns HEX0 = 40 and HEX1= 30
+#    Time: 8 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 10 ns HEX0 = 40 and HEX1= 19
+#    Time: 10 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 12 ns HEX0 = 40 and HEX1= 12
+#    Time: 12 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 14 ns HEX0 = 40 and HEX1= 02
+#    Time: 14 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 16 ns HEX0 = 40 and HEX1= 78
+#    Time: 16 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 18 ns HEX0 = 40 and HEX1= 00
+#    Time: 18 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 20 ns HEX0 = 40 and HEX1= 10
+#    Time: 20 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 22 ns HEX0 = 79 and HEX1= 40
+#    Time: 22 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 24 ns HEX0 = 79 and HEX1= 79
+#    Time: 24 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 26 ns HEX0 = 79 and HEX1= 24
+#    Time: 26 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 28 ns HEX0 = 79 and HEX1= 30
+#    Time: 28 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 30 ns HEX0 = 79 and HEX1= 19
+#    Time: 30 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 32 ns HEX0 = 79 and HEX1= 12
+#    Time: 32 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 34 ns HEX0 = 79 and HEX1= 02
+#    Time: 34 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 36 ns HEX0 = 79 and HEX1= 78
+#    Time: 36 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 38 ns HEX0 = 79 and HEX1= 00
+#    Time: 38 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 40 ns HEX0 = 79 and HEX1= 10
+#    Time: 40 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 42 ns HEX0 = 24 and HEX1= 40
+#    Time: 42 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 44 ns HEX0 = 24 and HEX1= 79
+#    Time: 44 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 46 ns HEX0 = 24 and HEX1= 24
+#    Time: 46 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 48 ns HEX0 = 24 and HEX1= 30
+#    Time: 48 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 50 ns HEX0 = 24 and HEX1= 19
+#    Time: 50 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 52 ns HEX0 = 24 and HEX1= 12
+#    Time: 52 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 54 ns HEX0 = 24 and HEX1= 02
+#    Time: 54 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 56 ns HEX0 = 24 and HEX1= 78
+#    Time: 56 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 58 ns HEX0 = 24 and HEX1= 00
+#    Time: 58 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 60 ns HEX0 = 24 and HEX1= 10
+#    Time: 60 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 62 ns HEX0 = 30 and HEX1= 40
+#    Time: 62 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 64 ns HEX0 = 30 and HEX1= 79
+#    Time: 64 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 66 ns HEX0 = 30 and HEX1= 24
+#    Time: 66 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 68 ns HEX0 = 30 and HEX1= 30
+#    Time: 68 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 70 ns HEX0 = 30 and HEX1= 19
+#    Time: 70 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 72 ns HEX0 = 30 and HEX1= 12
+#    Time: 72 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 74 ns HEX0 = 30 and HEX1= 02
+#    Time: 74 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 76 ns HEX0 = 30 and HEX1= 78
+#    Time: 76 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 78 ns HEX0 = 30 and HEX1= 00
+#    Time: 78 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 80 ns HEX0 = 30 and HEX1= 10
+#    Time: 80 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 82 ns HEX0 = 19 and HEX1= 40
+#    Time: 82 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 84 ns HEX0 = 19 and HEX1= 79
+#    Time: 84 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 86 ns HEX0 = 19 and HEX1= 24
+#    Time: 86 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 88 ns HEX0 = 19 and HEX1= 30
+#    Time: 88 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 90 ns HEX0 = 19 and HEX1= 19
+#    Time: 90 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 92 ns HEX0 = 19 and HEX1= 12
+#    Time: 92 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 94 ns HEX0 = 19 and HEX1= 02
+#    Time: 94 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 96 ns HEX0 = 19 and HEX1= 78
+#    Time: 96 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 98 ns HEX0 = 19 and HEX1= 00
+#    Time: 98 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 100 ns HEX0 = 19 and HEX1= 10
+#    Time: 100 ns  Iteration: 0  Instance: /part1_tb
+run
+# ** Note: at time : 102 ns HEX0 = 12 and HEX1= 40
+#    Time: 102 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 104 ns HEX0 = 12 and HEX1= 79
+#    Time: 104 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 106 ns HEX0 = 12 and HEX1= 24
+#    Time: 106 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 108 ns HEX0 = 12 and HEX1= 30
+#    Time: 108 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 110 ns HEX0 = 12 and HEX1= 19
+#    Time: 110 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 112 ns HEX0 = 12 and HEX1= 12
+#    Time: 112 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 114 ns HEX0 = 12 and HEX1= 02
+#    Time: 114 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 116 ns HEX0 = 12 and HEX1= 78
+#    Time: 116 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 118 ns HEX0 = 12 and HEX1= 00
+#    Time: 118 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 120 ns HEX0 = 12 and HEX1= 10
+#    Time: 120 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 122 ns HEX0 = 02 and HEX1= 40
+#    Time: 122 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 124 ns HEX0 = 02 and HEX1= 79
+#    Time: 124 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 126 ns HEX0 = 02 and HEX1= 24
+#    Time: 126 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 128 ns HEX0 = 02 and HEX1= 30
+#    Time: 128 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 130 ns HEX0 = 02 and HEX1= 19
+#    Time: 130 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 132 ns HEX0 = 02 and HEX1= 12
+#    Time: 132 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 134 ns HEX0 = 02 and HEX1= 02
+#    Time: 134 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 136 ns HEX0 = 02 and HEX1= 78
+#    Time: 136 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 138 ns HEX0 = 02 and HEX1= 00
+#    Time: 138 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 140 ns HEX0 = 02 and HEX1= 10
+#    Time: 140 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 142 ns HEX0 = 78 and HEX1= 40
+#    Time: 142 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 144 ns HEX0 = 78 and HEX1= 79
+#    Time: 144 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 146 ns HEX0 = 78 and HEX1= 24
+#    Time: 146 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 148 ns HEX0 = 78 and HEX1= 30
+#    Time: 148 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 150 ns HEX0 = 78 and HEX1= 19
+#    Time: 150 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 152 ns HEX0 = 78 and HEX1= 12
+#    Time: 152 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 154 ns HEX0 = 78 and HEX1= 02
+#    Time: 154 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 156 ns HEX0 = 78 and HEX1= 78
+#    Time: 156 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 158 ns HEX0 = 78 and HEX1= 00
+#    Time: 158 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 160 ns HEX0 = 78 and HEX1= 10
+#    Time: 160 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 162 ns HEX0 = 00 and HEX1= 40
+#    Time: 162 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 164 ns HEX0 = 00 and HEX1= 79
+#    Time: 164 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 166 ns HEX0 = 00 and HEX1= 24
+#    Time: 166 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 168 ns HEX0 = 00 and HEX1= 30
+#    Time: 168 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 170 ns HEX0 = 00 and HEX1= 19
+#    Time: 170 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 172 ns HEX0 = 00 and HEX1= 12
+#    Time: 172 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 174 ns HEX0 = 00 and HEX1= 02
+#    Time: 174 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 176 ns HEX0 = 00 and HEX1= 78
+#    Time: 176 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 178 ns HEX0 = 00 and HEX1= 00
+#    Time: 178 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 180 ns HEX0 = 00 and HEX1= 10
+#    Time: 180 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 182 ns HEX0 = 10 and HEX1= 40
+#    Time: 182 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 184 ns HEX0 = 10 and HEX1= 79
+#    Time: 184 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 186 ns HEX0 = 10 and HEX1= 24
+#    Time: 186 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 188 ns HEX0 = 10 and HEX1= 30
+#    Time: 188 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 190 ns HEX0 = 10 and HEX1= 19
+#    Time: 190 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 192 ns HEX0 = 10 and HEX1= 12
+#    Time: 192 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 194 ns HEX0 = 10 and HEX1= 02
+#    Time: 194 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 196 ns HEX0 = 10 and HEX1= 78
+#    Time: 196 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 198 ns HEX0 = 10 and HEX1= 00
+#    Time: 198 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 200 ns HEX0 = 10 and HEX1= 10
+#    Time: 200 ns  Iteration: 0  Instance: /part1_tb
+vsim -voptargs=+acc work.part1_tb
+# End time: 11:46:22 on Aug 22,2022, Elapsed time: 0:11:21
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.part1_tb 
+# Start time: 11:46:22 on Aug 22,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.hexas_pck(body)
+# Loading work.part1_tb(bench)#1
+# ** Warning: (vsim-7) Failed to open VHDL file "output_file.txt" in rb mode.
+# No such file or directory. (errno = ENOENT)
+#    Time: 0 ns  Iteration: 0  Instance: /part1_tb File: part1_tb.vhd
+# Loading work.part1(behavior)#1
+# Loading work.seg_decoder(behavior)#1
+add wave -position end  sim:/part1_tb/clk_period
+add wave -position end  sim:/part1_tb/HEX0
+add wave -position end  sim:/part1_tb/HEX1
+add wave -position end  sim:/part1_tb/N0
+add wave -position end  sim:/part1_tb/N1
+run
+# ** Note: at time : 2 ns HEX0 = 40 and HEX1= 40
+#    Time: 2 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 4 ns HEX0 = 40 and HEX1= 79
+#    Time: 4 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 6 ns HEX0 = 40 and HEX1= 24
+#    Time: 6 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 8 ns HEX0 = 40 and HEX1= 30
+#    Time: 8 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 10 ns HEX0 = 40 and HEX1= 19
+#    Time: 10 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 12 ns HEX0 = 40 and HEX1= 12
+#    Time: 12 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 14 ns HEX0 = 40 and HEX1= 02
+#    Time: 14 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 16 ns HEX0 = 40 and HEX1= 78
+#    Time: 16 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 18 ns HEX0 = 40 and HEX1= 00
+#    Time: 18 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 20 ns HEX0 = 40 and HEX1= 10
+#    Time: 20 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 22 ns HEX0 = 79 and HEX1= 40
+#    Time: 22 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 24 ns HEX0 = 79 and HEX1= 79
+#    Time: 24 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 26 ns HEX0 = 79 and HEX1= 24
+#    Time: 26 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 28 ns HEX0 = 79 and HEX1= 30
+#    Time: 28 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 30 ns HEX0 = 79 and HEX1= 19
+#    Time: 30 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 32 ns HEX0 = 79 and HEX1= 12
+#    Time: 32 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 34 ns HEX0 = 79 and HEX1= 02
+#    Time: 34 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 36 ns HEX0 = 79 and HEX1= 78
+#    Time: 36 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 38 ns HEX0 = 79 and HEX1= 00
+#    Time: 38 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 40 ns HEX0 = 79 and HEX1= 10
+#    Time: 40 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 42 ns HEX0 = 24 and HEX1= 40
+#    Time: 42 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 44 ns HEX0 = 24 and HEX1= 79
+#    Time: 44 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 46 ns HEX0 = 24 and HEX1= 24
+#    Time: 46 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 48 ns HEX0 = 24 and HEX1= 30
+#    Time: 48 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 50 ns HEX0 = 24 and HEX1= 19
+#    Time: 50 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 52 ns HEX0 = 24 and HEX1= 12
+#    Time: 52 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 54 ns HEX0 = 24 and HEX1= 02
+#    Time: 54 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 56 ns HEX0 = 24 and HEX1= 78
+#    Time: 56 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 58 ns HEX0 = 24 and HEX1= 00
+#    Time: 58 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 60 ns HEX0 = 24 and HEX1= 10
+#    Time: 60 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 62 ns HEX0 = 30 and HEX1= 40
+#    Time: 62 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 64 ns HEX0 = 30 and HEX1= 79
+#    Time: 64 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 66 ns HEX0 = 30 and HEX1= 24
+#    Time: 66 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 68 ns HEX0 = 30 and HEX1= 30
+#    Time: 68 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 70 ns HEX0 = 30 and HEX1= 19
+#    Time: 70 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 72 ns HEX0 = 30 and HEX1= 12
+#    Time: 72 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 74 ns HEX0 = 30 and HEX1= 02
+#    Time: 74 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 76 ns HEX0 = 30 and HEX1= 78
+#    Time: 76 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 78 ns HEX0 = 30 and HEX1= 00
+#    Time: 78 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 80 ns HEX0 = 30 and HEX1= 10
+#    Time: 80 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 82 ns HEX0 = 19 and HEX1= 40
+#    Time: 82 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 84 ns HEX0 = 19 and HEX1= 79
+#    Time: 84 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 86 ns HEX0 = 19 and HEX1= 24
+#    Time: 86 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 88 ns HEX0 = 19 and HEX1= 30
+#    Time: 88 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 90 ns HEX0 = 19 and HEX1= 19
+#    Time: 90 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 92 ns HEX0 = 19 and HEX1= 12
+#    Time: 92 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 94 ns HEX0 = 19 and HEX1= 02
+#    Time: 94 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 96 ns HEX0 = 19 and HEX1= 78
+#    Time: 96 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 98 ns HEX0 = 19 and HEX1= 00
+#    Time: 98 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 100 ns HEX0 = 19 and HEX1= 10
+#    Time: 100 ns  Iteration: 0  Instance: /part1_tb
+run
+# ** Note: at time : 102 ns HEX0 = 12 and HEX1= 40
+#    Time: 102 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 104 ns HEX0 = 12 and HEX1= 79
+#    Time: 104 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 106 ns HEX0 = 12 and HEX1= 24
+#    Time: 106 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 108 ns HEX0 = 12 and HEX1= 30
+#    Time: 108 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 110 ns HEX0 = 12 and HEX1= 19
+#    Time: 110 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 112 ns HEX0 = 12 and HEX1= 12
+#    Time: 112 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 114 ns HEX0 = 12 and HEX1= 02
+#    Time: 114 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 116 ns HEX0 = 12 and HEX1= 78
+#    Time: 116 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 118 ns HEX0 = 12 and HEX1= 00
+#    Time: 118 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 120 ns HEX0 = 12 and HEX1= 10
+#    Time: 120 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 122 ns HEX0 = 02 and HEX1= 40
+#    Time: 122 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 124 ns HEX0 = 02 and HEX1= 79
+#    Time: 124 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 126 ns HEX0 = 02 and HEX1= 24
+#    Time: 126 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 128 ns HEX0 = 02 and HEX1= 30
+#    Time: 128 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 130 ns HEX0 = 02 and HEX1= 19
+#    Time: 130 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 132 ns HEX0 = 02 and HEX1= 12
+#    Time: 132 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 134 ns HEX0 = 02 and HEX1= 02
+#    Time: 134 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 136 ns HEX0 = 02 and HEX1= 78
+#    Time: 136 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 138 ns HEX0 = 02 and HEX1= 00
+#    Time: 138 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 140 ns HEX0 = 02 and HEX1= 10
+#    Time: 140 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 142 ns HEX0 = 78 and HEX1= 40
+#    Time: 142 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 144 ns HEX0 = 78 and HEX1= 79
+#    Time: 144 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 146 ns HEX0 = 78 and HEX1= 24
+#    Time: 146 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 148 ns HEX0 = 78 and HEX1= 30
+#    Time: 148 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 150 ns HEX0 = 78 and HEX1= 19
+#    Time: 150 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 152 ns HEX0 = 78 and HEX1= 12
+#    Time: 152 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 154 ns HEX0 = 78 and HEX1= 02
+#    Time: 154 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 156 ns HEX0 = 78 and HEX1= 78
+#    Time: 156 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 158 ns HEX0 = 78 and HEX1= 00
+#    Time: 158 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 160 ns HEX0 = 78 and HEX1= 10
+#    Time: 160 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 162 ns HEX0 = 00 and HEX1= 40
+#    Time: 162 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 164 ns HEX0 = 00 and HEX1= 79
+#    Time: 164 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 166 ns HEX0 = 00 and HEX1= 24
+#    Time: 166 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 168 ns HEX0 = 00 and HEX1= 30
+#    Time: 168 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 170 ns HEX0 = 00 and HEX1= 19
+#    Time: 170 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 172 ns HEX0 = 00 and HEX1= 12
+#    Time: 172 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 174 ns HEX0 = 00 and HEX1= 02
+#    Time: 174 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 176 ns HEX0 = 00 and HEX1= 78
+#    Time: 176 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 178 ns HEX0 = 00 and HEX1= 00
+#    Time: 178 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 180 ns HEX0 = 00 and HEX1= 10
+#    Time: 180 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 182 ns HEX0 = 10 and HEX1= 40
+#    Time: 182 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 184 ns HEX0 = 10 and HEX1= 79
+#    Time: 184 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 186 ns HEX0 = 10 and HEX1= 24
+#    Time: 186 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 188 ns HEX0 = 10 and HEX1= 30
+#    Time: 188 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 190 ns HEX0 = 10 and HEX1= 19
+#    Time: 190 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 192 ns HEX0 = 10 and HEX1= 12
+#    Time: 192 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 194 ns HEX0 = 10 and HEX1= 02
+#    Time: 194 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 196 ns HEX0 = 10 and HEX1= 78
+#    Time: 196 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 198 ns HEX0 = 10 and HEX1= 00
+#    Time: 198 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 200 ns HEX0 = 10 and HEX1= 10
+#    Time: 200 ns  Iteration: 0  Instance: /part1_tb
+run
+# ** Note: at time : 202 ns HEX0 = 40 and HEX1= 40
+#    Time: 202 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 204 ns HEX0 = 40 and HEX1= 79
+#    Time: 204 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 206 ns HEX0 = 40 and HEX1= 24
+#    Time: 206 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 208 ns HEX0 = 40 and HEX1= 30
+#    Time: 208 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 210 ns HEX0 = 40 and HEX1= 19
+#    Time: 210 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 212 ns HEX0 = 40 and HEX1= 12
+#    Time: 212 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 214 ns HEX0 = 40 and HEX1= 02
+#    Time: 214 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 216 ns HEX0 = 40 and HEX1= 78
+#    Time: 216 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 218 ns HEX0 = 40 and HEX1= 00
+#    Time: 218 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 220 ns HEX0 = 40 and HEX1= 10
+#    Time: 220 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 222 ns HEX0 = 79 and HEX1= 40
+#    Time: 222 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 224 ns HEX0 = 79 and HEX1= 79
+#    Time: 224 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 226 ns HEX0 = 79 and HEX1= 24
+#    Time: 226 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 228 ns HEX0 = 79 and HEX1= 30
+#    Time: 228 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 230 ns HEX0 = 79 and HEX1= 19
+#    Time: 230 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 232 ns HEX0 = 79 and HEX1= 12
+#    Time: 232 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 234 ns HEX0 = 79 and HEX1= 02
+#    Time: 234 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 236 ns HEX0 = 79 and HEX1= 78
+#    Time: 236 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 238 ns HEX0 = 79 and HEX1= 00
+#    Time: 238 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 240 ns HEX0 = 79 and HEX1= 10
+#    Time: 240 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 242 ns HEX0 = 24 and HEX1= 40
+#    Time: 242 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 244 ns HEX0 = 24 and HEX1= 79
+#    Time: 244 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 246 ns HEX0 = 24 and HEX1= 24
+#    Time: 246 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 248 ns HEX0 = 24 and HEX1= 30
+#    Time: 248 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 250 ns HEX0 = 24 and HEX1= 19
+#    Time: 250 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 252 ns HEX0 = 24 and HEX1= 12
+#    Time: 252 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 254 ns HEX0 = 24 and HEX1= 02
+#    Time: 254 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 256 ns HEX0 = 24 and HEX1= 78
+#    Time: 256 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 258 ns HEX0 = 24 and HEX1= 00
+#    Time: 258 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 260 ns HEX0 = 24 and HEX1= 10
+#    Time: 260 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 262 ns HEX0 = 30 and HEX1= 40
+#    Time: 262 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 264 ns HEX0 = 30 and HEX1= 79
+#    Time: 264 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 266 ns HEX0 = 30 and HEX1= 24
+#    Time: 266 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 268 ns HEX0 = 30 and HEX1= 30
+#    Time: 268 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 270 ns HEX0 = 30 and HEX1= 19
+#    Time: 270 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 272 ns HEX0 = 30 and HEX1= 12
+#    Time: 272 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 274 ns HEX0 = 30 and HEX1= 02
+#    Time: 274 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 276 ns HEX0 = 30 and HEX1= 78
+#    Time: 276 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 278 ns HEX0 = 30 and HEX1= 00
+#    Time: 278 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 280 ns HEX0 = 30 and HEX1= 10
+#    Time: 280 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 282 ns HEX0 = 19 and HEX1= 40
+#    Time: 282 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 284 ns HEX0 = 19 and HEX1= 79
+#    Time: 284 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 286 ns HEX0 = 19 and HEX1= 24
+#    Time: 286 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 288 ns HEX0 = 19 and HEX1= 30
+#    Time: 288 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 290 ns HEX0 = 19 and HEX1= 19
+#    Time: 290 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 292 ns HEX0 = 19 and HEX1= 12
+#    Time: 292 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 294 ns HEX0 = 19 and HEX1= 02
+#    Time: 294 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 296 ns HEX0 = 19 and HEX1= 78
+#    Time: 296 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 298 ns HEX0 = 19 and HEX1= 00
+#    Time: 298 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 300 ns HEX0 = 19 and HEX1= 10
+#    Time: 300 ns  Iteration: 0  Instance: /part1_tb
+run
+# ** Note: at time : 302 ns HEX0 = 12 and HEX1= 40
+#    Time: 302 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 304 ns HEX0 = 12 and HEX1= 79
+#    Time: 304 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 306 ns HEX0 = 12 and HEX1= 24
+#    Time: 306 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 308 ns HEX0 = 12 and HEX1= 30
+#    Time: 308 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 310 ns HEX0 = 12 and HEX1= 19
+#    Time: 310 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 312 ns HEX0 = 12 and HEX1= 12
+#    Time: 312 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 314 ns HEX0 = 12 and HEX1= 02
+#    Time: 314 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 316 ns HEX0 = 12 and HEX1= 78
+#    Time: 316 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 318 ns HEX0 = 12 and HEX1= 00
+#    Time: 318 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 320 ns HEX0 = 12 and HEX1= 10
+#    Time: 320 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 322 ns HEX0 = 02 and HEX1= 40
+#    Time: 322 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 324 ns HEX0 = 02 and HEX1= 79
+#    Time: 324 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 326 ns HEX0 = 02 and HEX1= 24
+#    Time: 326 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 328 ns HEX0 = 02 and HEX1= 30
+#    Time: 328 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 330 ns HEX0 = 02 and HEX1= 19
+#    Time: 330 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 332 ns HEX0 = 02 and HEX1= 12
+#    Time: 332 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 334 ns HEX0 = 02 and HEX1= 02
+#    Time: 334 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 336 ns HEX0 = 02 and HEX1= 78
+#    Time: 336 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 338 ns HEX0 = 02 and HEX1= 00
+#    Time: 338 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 340 ns HEX0 = 02 and HEX1= 10
+#    Time: 340 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 342 ns HEX0 = 78 and HEX1= 40
+#    Time: 342 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 344 ns HEX0 = 78 and HEX1= 79
+#    Time: 344 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 346 ns HEX0 = 78 and HEX1= 24
+#    Time: 346 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 348 ns HEX0 = 78 and HEX1= 30
+#    Time: 348 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 350 ns HEX0 = 78 and HEX1= 19
+#    Time: 350 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 352 ns HEX0 = 78 and HEX1= 12
+#    Time: 352 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 354 ns HEX0 = 78 and HEX1= 02
+#    Time: 354 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 356 ns HEX0 = 78 and HEX1= 78
+#    Time: 356 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 358 ns HEX0 = 78 and HEX1= 00
+#    Time: 358 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 360 ns HEX0 = 78 and HEX1= 10
+#    Time: 360 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 362 ns HEX0 = 00 and HEX1= 40
+#    Time: 362 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 364 ns HEX0 = 00 and HEX1= 79
+#    Time: 364 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 366 ns HEX0 = 00 and HEX1= 24
+#    Time: 366 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 368 ns HEX0 = 00 and HEX1= 30
+#    Time: 368 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 370 ns HEX0 = 00 and HEX1= 19
+#    Time: 370 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 372 ns HEX0 = 00 and HEX1= 12
+#    Time: 372 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 374 ns HEX0 = 00 and HEX1= 02
+#    Time: 374 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 376 ns HEX0 = 00 and HEX1= 78
+#    Time: 376 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 378 ns HEX0 = 00 and HEX1= 00
+#    Time: 378 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 380 ns HEX0 = 00 and HEX1= 10
+#    Time: 380 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 382 ns HEX0 = 10 and HEX1= 40
+#    Time: 382 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 384 ns HEX0 = 10 and HEX1= 79
+#    Time: 384 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 386 ns HEX0 = 10 and HEX1= 24
+#    Time: 386 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 388 ns HEX0 = 10 and HEX1= 30
+#    Time: 388 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 390 ns HEX0 = 10 and HEX1= 19
+#    Time: 390 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 392 ns HEX0 = 10 and HEX1= 12
+#    Time: 392 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 394 ns HEX0 = 10 and HEX1= 02
+#    Time: 394 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 396 ns HEX0 = 10 and HEX1= 78
+#    Time: 396 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 398 ns HEX0 = 10 and HEX1= 00
+#    Time: 398 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 400 ns HEX0 = 10 and HEX1= 10
+#    Time: 400 ns  Iteration: 0  Instance: /part1_tb
+vsim -voptargs=+acc work.part1_tb
+# End time: 11:47:54 on Aug 22,2022, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.part1_tb 
+# Start time: 11:47:54 on Aug 22,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.hexas_pck(body)
+# Loading work.part1_tb(bench)#1
+# Loading work.part1(behavior)#1
+# Loading work.seg_decoder(behavior)#1
+add wave -position end  sim:/part1_tb/HEX0
+add wave -position end  sim:/part1_tb/HEX1
+add wave -position end  sim:/part1_tb/N0
+add wave -position end  sim:/part1_tb/N1
+run
+# ** Note: at time : 2 ns HEX0 = 40 and HEX1= 40
+#    Time: 2 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 4 ns HEX0 = 40 and HEX1= 79
+#    Time: 4 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 6 ns HEX0 = 40 and HEX1= 24
+#    Time: 6 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 8 ns HEX0 = 40 and HEX1= 30
+#    Time: 8 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 10 ns HEX0 = 40 and HEX1= 19
+#    Time: 10 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 12 ns HEX0 = 40 and HEX1= 12
+#    Time: 12 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 14 ns HEX0 = 40 and HEX1= 02
+#    Time: 14 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 16 ns HEX0 = 40 and HEX1= 78
+#    Time: 16 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 18 ns HEX0 = 40 and HEX1= 00
+#    Time: 18 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 20 ns HEX0 = 40 and HEX1= 10
+#    Time: 20 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 22 ns HEX0 = 79 and HEX1= 40
+#    Time: 22 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 24 ns HEX0 = 79 and HEX1= 79
+#    Time: 24 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 26 ns HEX0 = 79 and HEX1= 24
+#    Time: 26 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 28 ns HEX0 = 79 and HEX1= 30
+#    Time: 28 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 30 ns HEX0 = 79 and HEX1= 19
+#    Time: 30 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 32 ns HEX0 = 79 and HEX1= 12
+#    Time: 32 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 34 ns HEX0 = 79 and HEX1= 02
+#    Time: 34 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 36 ns HEX0 = 79 and HEX1= 78
+#    Time: 36 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 38 ns HEX0 = 79 and HEX1= 00
+#    Time: 38 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 40 ns HEX0 = 79 and HEX1= 10
+#    Time: 40 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 42 ns HEX0 = 24 and HEX1= 40
+#    Time: 42 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 44 ns HEX0 = 24 and HEX1= 79
+#    Time: 44 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 46 ns HEX0 = 24 and HEX1= 24
+#    Time: 46 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 48 ns HEX0 = 24 and HEX1= 30
+#    Time: 48 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 50 ns HEX0 = 24 and HEX1= 19
+#    Time: 50 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 52 ns HEX0 = 24 and HEX1= 12
+#    Time: 52 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 54 ns HEX0 = 24 and HEX1= 02
+#    Time: 54 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 56 ns HEX0 = 24 and HEX1= 78
+#    Time: 56 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 58 ns HEX0 = 24 and HEX1= 00
+#    Time: 58 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 60 ns HEX0 = 24 and HEX1= 10
+#    Time: 60 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 62 ns HEX0 = 30 and HEX1= 40
+#    Time: 62 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 64 ns HEX0 = 30 and HEX1= 79
+#    Time: 64 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 66 ns HEX0 = 30 and HEX1= 24
+#    Time: 66 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 68 ns HEX0 = 30 and HEX1= 30
+#    Time: 68 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 70 ns HEX0 = 30 and HEX1= 19
+#    Time: 70 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 72 ns HEX0 = 30 and HEX1= 12
+#    Time: 72 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 74 ns HEX0 = 30 and HEX1= 02
+#    Time: 74 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 76 ns HEX0 = 30 and HEX1= 78
+#    Time: 76 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 78 ns HEX0 = 30 and HEX1= 00
+#    Time: 78 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 80 ns HEX0 = 30 and HEX1= 10
+#    Time: 80 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 82 ns HEX0 = 19 and HEX1= 40
+#    Time: 82 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 84 ns HEX0 = 19 and HEX1= 79
+#    Time: 84 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 86 ns HEX0 = 19 and HEX1= 24
+#    Time: 86 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 88 ns HEX0 = 19 and HEX1= 30
+#    Time: 88 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 90 ns HEX0 = 19 and HEX1= 19
+#    Time: 90 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 92 ns HEX0 = 19 and HEX1= 12
+#    Time: 92 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 94 ns HEX0 = 19 and HEX1= 02
+#    Time: 94 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 96 ns HEX0 = 19 and HEX1= 78
+#    Time: 96 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 98 ns HEX0 = 19 and HEX1= 00
+#    Time: 98 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 100 ns HEX0 = 19 and HEX1= 10
+#    Time: 100 ns  Iteration: 0  Instance: /part1_tb
+run
+# ** Note: at time : 102 ns HEX0 = 12 and HEX1= 40
+#    Time: 102 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 104 ns HEX0 = 12 and HEX1= 79
+#    Time: 104 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 106 ns HEX0 = 12 and HEX1= 24
+#    Time: 106 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 108 ns HEX0 = 12 and HEX1= 30
+#    Time: 108 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 110 ns HEX0 = 12 and HEX1= 19
+#    Time: 110 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 112 ns HEX0 = 12 and HEX1= 12
+#    Time: 112 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 114 ns HEX0 = 12 and HEX1= 02
+#    Time: 114 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 116 ns HEX0 = 12 and HEX1= 78
+#    Time: 116 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 118 ns HEX0 = 12 and HEX1= 00
+#    Time: 118 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 120 ns HEX0 = 12 and HEX1= 10
+#    Time: 120 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 122 ns HEX0 = 02 and HEX1= 40
+#    Time: 122 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 124 ns HEX0 = 02 and HEX1= 79
+#    Time: 124 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 126 ns HEX0 = 02 and HEX1= 24
+#    Time: 126 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 128 ns HEX0 = 02 and HEX1= 30
+#    Time: 128 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 130 ns HEX0 = 02 and HEX1= 19
+#    Time: 130 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 132 ns HEX0 = 02 and HEX1= 12
+#    Time: 132 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 134 ns HEX0 = 02 and HEX1= 02
+#    Time: 134 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 136 ns HEX0 = 02 and HEX1= 78
+#    Time: 136 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 138 ns HEX0 = 02 and HEX1= 00
+#    Time: 138 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 140 ns HEX0 = 02 and HEX1= 10
+#    Time: 140 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 142 ns HEX0 = 78 and HEX1= 40
+#    Time: 142 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 144 ns HEX0 = 78 and HEX1= 79
+#    Time: 144 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 146 ns HEX0 = 78 and HEX1= 24
+#    Time: 146 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 148 ns HEX0 = 78 and HEX1= 30
+#    Time: 148 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 150 ns HEX0 = 78 and HEX1= 19
+#    Time: 150 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 152 ns HEX0 = 78 and HEX1= 12
+#    Time: 152 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 154 ns HEX0 = 78 and HEX1= 02
+#    Time: 154 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 156 ns HEX0 = 78 and HEX1= 78
+#    Time: 156 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 158 ns HEX0 = 78 and HEX1= 00
+#    Time: 158 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 160 ns HEX0 = 78 and HEX1= 10
+#    Time: 160 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 162 ns HEX0 = 00 and HEX1= 40
+#    Time: 162 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 164 ns HEX0 = 00 and HEX1= 79
+#    Time: 164 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 166 ns HEX0 = 00 and HEX1= 24
+#    Time: 166 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 168 ns HEX0 = 00 and HEX1= 30
+#    Time: 168 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 170 ns HEX0 = 00 and HEX1= 19
+#    Time: 170 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 172 ns HEX0 = 00 and HEX1= 12
+#    Time: 172 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 174 ns HEX0 = 00 and HEX1= 02
+#    Time: 174 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 176 ns HEX0 = 00 and HEX1= 78
+#    Time: 176 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 178 ns HEX0 = 00 and HEX1= 00
+#    Time: 178 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 180 ns HEX0 = 00 and HEX1= 10
+#    Time: 180 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 182 ns HEX0 = 10 and HEX1= 40
+#    Time: 182 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 184 ns HEX0 = 10 and HEX1= 79
+#    Time: 184 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 186 ns HEX0 = 10 and HEX1= 24
+#    Time: 186 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 188 ns HEX0 = 10 and HEX1= 30
+#    Time: 188 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 190 ns HEX0 = 10 and HEX1= 19
+#    Time: 190 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 192 ns HEX0 = 10 and HEX1= 12
+#    Time: 192 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 194 ns HEX0 = 10 and HEX1= 02
+#    Time: 194 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 196 ns HEX0 = 10 and HEX1= 78
+#    Time: 196 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 198 ns HEX0 = 10 and HEX1= 00
+#    Time: 198 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 200 ns HEX0 = 10 and HEX1= 10
+#    Time: 200 ns  Iteration: 0  Instance: /part1_tb
+run
+run
+vsim -voptargs=+acc work.part1_tb
+# End time: 12:16:04 on Aug 22,2022, Elapsed time: 0:28:10
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.part1_tb 
+# Start time: 12:16:04 on Aug 22,2022
+>>>>>>> Rufaida
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.hexas_pck(body)
+# Loading work.part1_tb(bench)#1
+<<<<<<< HEAD
+add wave -position insertpoint sim:/part1_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aatta  Hostname: MYLOLY  ProcessID: 30948
+#           Attempting to use alternate WLF file "./wlftw8db4c".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftw8db4c
+=======
+# Loading work.part1(behavior)#1
+# Loading work.seg_decoder(behavior)#1
+add wave -position insertpoint  \
+sim:/part1_tb/clk_period \
+sim:/part1_tb/HEX0 \
+sim:/part1_tb/HEX1 \
+sim:/part1_tb/N0 \
+sim:/part1_tb/N1 \
+sim:/part1_tb/output_file
+# (vsim-4027) Logging is not supported for this item: /part1_tb/output_file
+>>>>>>> Rufaida
+run
+# ** Note: at time : 2 ns HEX0 = 40 and HEX1= 40
+#    Time: 2 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 4 ns HEX0 = 40 and HEX1= 79
+#    Time: 4 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 6 ns HEX0 = 40 and HEX1= 24
+#    Time: 6 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 8 ns HEX0 = 40 and HEX1= 30
+#    Time: 8 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 10 ns HEX0 = 40 and HEX1= 19
+#    Time: 10 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 12 ns HEX0 = 40 and HEX1= 12
+#    Time: 12 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 14 ns HEX0 = 40 and HEX1= 02
+#    Time: 14 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 16 ns HEX0 = 40 and HEX1= 78
+#    Time: 16 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 18 ns HEX0 = 40 and HEX1= 00
+#    Time: 18 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 20 ns HEX0 = 40 and HEX1= 10
+#    Time: 20 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 22 ns HEX0 = 79 and HEX1= 40
+#    Time: 22 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 24 ns HEX0 = 79 and HEX1= 79
+#    Time: 24 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 26 ns HEX0 = 79 and HEX1= 24
+#    Time: 26 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 28 ns HEX0 = 79 and HEX1= 30
+#    Time: 28 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 30 ns HEX0 = 79 and HEX1= 19
+#    Time: 30 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 32 ns HEX0 = 79 and HEX1= 12
+#    Time: 32 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 34 ns HEX0 = 79 and HEX1= 02
+#    Time: 34 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 36 ns HEX0 = 79 and HEX1= 78
+#    Time: 36 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 38 ns HEX0 = 79 and HEX1= 00
+#    Time: 38 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 40 ns HEX0 = 79 and HEX1= 10
+#    Time: 40 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 42 ns HEX0 = 24 and HEX1= 40
+#    Time: 42 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 44 ns HEX0 = 24 and HEX1= 79
+#    Time: 44 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 46 ns HEX0 = 24 and HEX1= 24
+#    Time: 46 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 48 ns HEX0 = 24 and HEX1= 30
+#    Time: 48 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 50 ns HEX0 = 24 and HEX1= 19
+#    Time: 50 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 52 ns HEX0 = 24 and HEX1= 12
+#    Time: 52 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 54 ns HEX0 = 24 and HEX1= 02
+#    Time: 54 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 56 ns HEX0 = 24 and HEX1= 78
+#    Time: 56 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 58 ns HEX0 = 24 and HEX1= 00
+#    Time: 58 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 60 ns HEX0 = 24 and HEX1= 10
+#    Time: 60 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 62 ns HEX0 = 30 and HEX1= 40
+#    Time: 62 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 64 ns HEX0 = 30 and HEX1= 79
+#    Time: 64 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 66 ns HEX0 = 30 and HEX1= 24
+#    Time: 66 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 68 ns HEX0 = 30 and HEX1= 30
+#    Time: 68 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 70 ns HEX0 = 30 and HEX1= 19
+#    Time: 70 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 72 ns HEX0 = 30 and HEX1= 12
+#    Time: 72 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 74 ns HEX0 = 30 and HEX1= 02
+#    Time: 74 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 76 ns HEX0 = 30 and HEX1= 78
+#    Time: 76 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 78 ns HEX0 = 30 and HEX1= 00
+#    Time: 78 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 80 ns HEX0 = 30 and HEX1= 10
+#    Time: 80 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 82 ns HEX0 = 19 and HEX1= 40
+#    Time: 82 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 84 ns HEX0 = 19 and HEX1= 79
+#    Time: 84 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 86 ns HEX0 = 19 and HEX1= 24
+#    Time: 86 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 88 ns HEX0 = 19 and HEX1= 30
+#    Time: 88 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 90 ns HEX0 = 19 and HEX1= 19
+#    Time: 90 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 92 ns HEX0 = 19 and HEX1= 12
+#    Time: 92 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 94 ns HEX0 = 19 and HEX1= 02
+#    Time: 94 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 96 ns HEX0 = 19 and HEX1= 78
+#    Time: 96 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 98 ns HEX0 = 19 and HEX1= 00
+#    Time: 98 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 100 ns HEX0 = 19 and HEX1= 10
+#    Time: 100 ns  Iteration: 0  Instance: /part1_tb
+run
+# ** Note: at time : 102 ns HEX0 = 12 and HEX1= 40
+#    Time: 102 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 104 ns HEX0 = 12 and HEX1= 79
+#    Time: 104 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 106 ns HEX0 = 12 and HEX1= 24
+#    Time: 106 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 108 ns HEX0 = 12 and HEX1= 30
+#    Time: 108 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 110 ns HEX0 = 12 and HEX1= 19
+#    Time: 110 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 112 ns HEX0 = 12 and HEX1= 12
+#    Time: 112 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 114 ns HEX0 = 12 and HEX1= 02
+#    Time: 114 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 116 ns HEX0 = 12 and HEX1= 78
+#    Time: 116 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 118 ns HEX0 = 12 and HEX1= 00
+#    Time: 118 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 120 ns HEX0 = 12 and HEX1= 10
+#    Time: 120 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 122 ns HEX0 = 02 and HEX1= 40
+#    Time: 122 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 124 ns HEX0 = 02 and HEX1= 79
+#    Time: 124 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 126 ns HEX0 = 02 and HEX1= 24
+#    Time: 126 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 128 ns HEX0 = 02 and HEX1= 30
+#    Time: 128 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 130 ns HEX0 = 02 and HEX1= 19
+#    Time: 130 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 132 ns HEX0 = 02 and HEX1= 12
+#    Time: 132 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 134 ns HEX0 = 02 and HEX1= 02
+#    Time: 134 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 136 ns HEX0 = 02 and HEX1= 78
+#    Time: 136 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 138 ns HEX0 = 02 and HEX1= 00
+#    Time: 138 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 140 ns HEX0 = 02 and HEX1= 10
+#    Time: 140 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 142 ns HEX0 = 78 and HEX1= 40
+#    Time: 142 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 144 ns HEX0 = 78 and HEX1= 79
+#    Time: 144 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 146 ns HEX0 = 78 and HEX1= 24
+#    Time: 146 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 148 ns HEX0 = 78 and HEX1= 30
+#    Time: 148 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 150 ns HEX0 = 78 and HEX1= 19
+#    Time: 150 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 152 ns HEX0 = 78 and HEX1= 12
+#    Time: 152 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 154 ns HEX0 = 78 and HEX1= 02
+#    Time: 154 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 156 ns HEX0 = 78 and HEX1= 78
+#    Time: 156 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 158 ns HEX0 = 78 and HEX1= 00
+#    Time: 158 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 160 ns HEX0 = 78 and HEX1= 10
+#    Time: 160 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 162 ns HEX0 = 00 and HEX1= 40
+#    Time: 162 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 164 ns HEX0 = 00 and HEX1= 79
+#    Time: 164 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 166 ns HEX0 = 00 and HEX1= 24
+#    Time: 166 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 168 ns HEX0 = 00 and HEX1= 30
+#    Time: 168 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 170 ns HEX0 = 00 and HEX1= 19
+#    Time: 170 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 172 ns HEX0 = 00 and HEX1= 12
+#    Time: 172 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 174 ns HEX0 = 00 and HEX1= 02
+#    Time: 174 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 176 ns HEX0 = 00 and HEX1= 78
+#    Time: 176 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 178 ns HEX0 = 00 and HEX1= 00
+#    Time: 178 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 180 ns HEX0 = 00 and HEX1= 10
+#    Time: 180 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 182 ns HEX0 = 10 and HEX1= 40
+#    Time: 182 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 184 ns HEX0 = 10 and HEX1= 79
+#    Time: 184 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 186 ns HEX0 = 10 and HEX1= 24
+#    Time: 186 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 188 ns HEX0 = 10 and HEX1= 30
+#    Time: 188 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 190 ns HEX0 = 10 and HEX1= 19
+#    Time: 190 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 192 ns HEX0 = 10 and HEX1= 12
+#    Time: 192 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 194 ns HEX0 = 10 and HEX1= 02
+#    Time: 194 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 196 ns HEX0 = 10 and HEX1= 78
+#    Time: 196 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 198 ns HEX0 = 10 and HEX1= 00
+#    Time: 198 ns  Iteration: 0  Instance: /part1_tb
+# ** Note: at time : 200 ns HEX0 = 10 and HEX1= 10
+#    Time: 200 ns  Iteration: 0  Instance: /part1_tb
+run
+<<<<<<< HEAD
+=======
+run
+run
+# End time: 12:40:32 on Aug 22,2022, Elapsed time: 0:24:28
+# Errors: 0, Warnings: 0
+>>>>>>> Rufaida

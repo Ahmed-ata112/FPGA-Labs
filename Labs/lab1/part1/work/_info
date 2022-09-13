@@ -1,0 +1,129 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/engineering/PyramidTech/labs/lab1/part1
+T_opt
+!s110 1661162373
+VozYZVWEMUiH:O[G1Q2Vl^0
+Z2 04 8 5 work part1_tb bench 1
+=1-40b03402a18f-63035383-2bb-25f4
+Z3 !s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+T_opt1
+!s110 1661158095
+V[Fl8T=NO[IZB6H_<nLQDB3
+R2
+=1-40b03402a18f-630342cd-31c-fc
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+R1
+Epart1
+Z6 w1659517959
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 27
+R1
+Z9 8part1.vhd
+Z10 Fpart1.vhd
+l0
+L4 1
+VBY9>FJ7Yf0SUzPKkF:nz`2
+!s100 O_z4FIVANz21@j>WJoB[K1
+Z11 OL;C;2021.2;73
+33
+Z12 !s110 1661162326
+!i10b 1
+Z13 !s108 1661162325.000000
+Z14 !s90 part1.vhd|part1_tb.vhd|-2008|
+Z15 !s107 part1_tb.vhd|part1.vhd|
+!i113 0
+Z16 o-2008
+Z17 tExplicit 1 CvgOpt 0
+Abehavior
+R7
+R8
+DEx4 work 5 part1 0 22 BY9>FJ7Yf0SUzPKkF:nz`2
+!i122 27
+l10
+L9 4
+Vhcb`Z^b^hOCjShk[XJkWh2
+!s100 <L=P<ff9676z@eMQQZehN0
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Epart1_tb
+Z18 w1661162321
+Z19 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+Z20 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R7
+R8
+!i122 27
+R1
+Z21 8part1_tb.vhd
+Z22 Fpart1_tb.vhd
+l0
+L7 1
+VWOcM5cBg0YUZW0Y5Xd1d23
+!s100 Y5EHcYS@Ee164dF=W[fLZ3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Abench
+R19
+R20
+R7
+R8
+DEx4 work 8 part1_tb 0 22 WOcM5cBg0YUZW0Y5Xd1d23
+!i122 27
+l23
+L10 63
+V4f:RT2;bI=HQc3cCW3a1T0
+!s100 TEEab2G:5JJRK6`bji6T?3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17

@@ -1,0 +1,202 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab6/part4
+T_opt
+!s110 1660584321
+VmX=3VN;P5id4ICM2ARkiK1
+04 5 4 work part4 arch 1
+=1-020cf0a1cd70-62fa8181-3d-5e6c
+!s124 OEM10U1 
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1660921079
+V^_IO^RS9e6YFOdLSHP7mk2
+Z5 04 8 5 work part4_tb bench 1
+=1-020cf0a1cd70-62ffa4f6-3a1-668
+Z6 !s124 OEM10U3 
+R2
+R3
+n@_opt1
+R4
+R1
+T_opt2
+!s110 1660921039
+VnCFGdG@OEznZSPkYX7E]?0
+R5
+=1-020cf0a1cd70-62ffa4cf-87-6de8
+R6
+o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt2
+R4
+R1
+Epart4
+Z7 w1660923221
+Z8 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+R1
+Z11 8part4.vhd
+Z12 Fpart4.vhd
+l0
+L5 1
+V:FO]hGgX5@eGToM1:O1eH2
+!s100 622MfdDN9ZZZSC_Geeo@P2
+Z13 OL;C;2021.2;73
+33
+Z14 !s110 1660923841
+!i10b 1
+Z15 !s108 1660923841.000000
+Z16 !s90 multiplier_8bits.vhd|part4.vhd|part4_tb.vhd|-2008|
+Z17 !s107 part4_tb.vhd|part4.vhd|multiplier_8bits.vhd|
+!i113 0
+Z18 o-2008
+Z19 tExplicit 1 CvgOpt 0
+Artl
+R8
+R9
+R10
+Z20 DEx4 work 5 part4 0 22 :FO]hGgX5@eGToM1:O1eH2
+!i122 10
+l36
+Z21 L16 51
+Z22 Vn2AglBRHZn;fX1`L4faJm3
+Z23 !s100 J`U8;EdSml1<0<<i`UE491
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Aarch
+R8
+R9
+R10
+DEx4 work 5 part4 0 22 WX]kmIR963DWG:N8M3IQG1
+!i122 1
+l75
+L16 135
+VlFzBlKhGMm:ZdUeI9m?Iz0
+!s100 :EAO_W9Ib>4Bjied25mED2
+R13
+32
+!s110 1660584311
+!i10b 1
+!s108 1660584311.000000
+!s90 part4.vhd|
+!s107 part4.vhd|
+!i113 0
+R19
+w1660584308
+Epart4_multiplier
+Z24 w1660854056
+R8
+R9
+R10
+!i122 10
+R1
+Z25 8multiplier_8bits.vhd
+Z26 Fmultiplier_8bits.vhd
+l0
+L7 1
+Vc6gSWGQQVgWiJ^jFe<QCe2
+!s100 A@ECbG[eoh4h`g8SgPz833
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Aarch
+R8
+R9
+R10
+Z27 DEx4 work 16 part4_multiplier 0 22 c6gSWGQQVgWiJ^jFe<QCe2
+!i122 10
+l84
+Z28 L16 189
+Z29 VHXZUSQN83:en6AkhT1Sg02
+Z30 !s100 nl^jaJ6o61^C3R5MZ3AaC0
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Epart4_tb
+Z31 w1660923839
+Z32 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R8
+R9
+R10
+!i122 10
+R1
+Z33 8part4_tb.vhd
+Z34 Fpart4_tb.vhd
+l0
+L8 1
+Vj<PL:V0[N4L>T;7mQcSoF2
+!s100 GKn6iTLRZXi0=iWfL3h5N3
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Abench
+R32
+R8
+R9
+R10
+DEx4 work 8 part4_tb 0 22 j<PL:V0[N4L>T;7mQcSoF2
+!i122 10
+l61
+L11 97
+VzXdLc7gE_LWjI80A42oMn0
+!s100 fb9AX?6GKi2`?2mUZP8D^1
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19

@@ -1,0 +1,210 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab6/part3
+T_opt
+!s110 1661094903
+V>7^WLBKbHGUj0kk5Bfo@l2
+Z2 04 8 5 work part3_tb bench 1
+=1-020cf0a1cd70-63024bf7-d9-6a68
+Z3 !s124 OEM10U14 
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1661095369
+VkCbA@CO<IEj=T?OWCJMR?0
+R2
+=4-020cf0a1cd70-63024dc8-37f-2c14
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+Efull_adder
+Z6 w1660556731
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 10
+R1
+Z9 8full_adder.vhd
+Z10 Ffull_adder.vhd
+l0
+L4 1
+ViVzQ6nKjfJznZAloDj`z@0
+!s100 `VR^:z0:aiGcN_J8=KQ7g3
+Z11 OL;C;2021.2;73
+33
+Z12 !s110 1661095365
+!i10b 1
+Z13 !s108 1661095365.000000
+Z14 !s90 full_adder.vhd|half_adder.vhd|part3.vhd|part3_tb.vhd|-2008|
+Z15 !s107 part3_tb.vhd|part3.vhd|half_adder.vhd|full_adder.vhd|
+!i113 0
+Z16 o-2008
+Z17 tExplicit 1 NoCoverage 1 CvgOpt 0
+Abehavioral
+R7
+R8
+DEx4 work 10 full_adder 0 22 iVzQ6nKjfJznZAloDj`z@0
+!i122 10
+l14
+L12 7
+V3>BEd9;eZn0UPjJ7nQJbX1
+!s100 f[eJAz:`:FCdJ`TA49W:]3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Ehalf_adder
+Z18 w1660556903
+R7
+R8
+!i122 10
+R1
+Z19 8half_adder.vhd
+Z20 Fhalf_adder.vhd
+l0
+L4 1
+V3jlW_`9Rl^]KVDBGGkZ_=1
+!s100 8Hi4]neOla5DITaS1>W2=2
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Abehavioral
+R7
+R8
+DEx4 work 10 half_adder 0 22 3jlW_`9Rl^]KVDBGGkZ_=1
+!i122 10
+l13
+L11 7
+V^<382G=3fGZ4dgVZ?JX]`2
+!s100 Z5cT<PA=LlYJY70<>kJ]Q3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Epart3
+Z21 w1660578594
+Z22 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R7
+R8
+!i122 10
+R1
+Z23 8part3.vhd
+Z24 Fpart3.vhd
+l0
+L7 1
+V3WWQHPKNZo_Z<D1_`PFn=3
+!s100 5egSKPRK;hcV7TY53XDC01
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Aarch
+R22
+R7
+R8
+DEx4 work 5 part3 0 22 3WWQHPKNZo_Z<D1_`PFn=3
+!i122 10
+l60
+L16 104
+VI]15FNh`Y>;YW6iz6I^H;3
+!s100 Z4<fBi4GAhMa^e:SY0IP00
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Epart3_tb
+Z25 w1661095355
+Z26 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R22
+R7
+R8
+!i122 10
+R1
+Z27 8part3_tb.vhd
+Z28 Fpart3_tb.vhd
+l0
+L6 1
+VO>_Q3VE=0T;2P^7aCDJKZ0
+!s100 z2D<CK6d1LB:mPbPNM?2n1
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Abench
+R26
+R22
+R7
+R8
+DEx4 work 8 part3_tb 0 22 O>_Q3VE=0T;2P^7aCDJKZ0
+!i122 10
+l38
+L9 68
+Vl]2F`M;@bJMOeVi;2h0Qi0
+!s100 0eMN5Yc9VMGQhM6BN?AlO0
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17

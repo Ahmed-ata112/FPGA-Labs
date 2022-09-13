@@ -1,0 +1,132 @@
+m255
+K4
+z2
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/common/sev_seg_hex
+Econv_bcd
+Z1 w1660562944
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8conv_bcd.vhd
+Z6 Fconv_bcd.vhd
+l0
+L5 1
+VBRVP8PBmZ>jzc0`j3Y[bo3
+!s100 >aP8IjbO=RHi8O0HLb9C51
+Z7 OL;C;2021.2;73
+32
+Z8 !s110 1660921167
+!i10b 1
+Z9 !s108 1660921167.000000
+Z10 !s90 conv_bcd.vhd|part6.vhd|seg_decoder.vhd|
+!s107 seg_decoder.vhd|part6.vhd|conv_bcd.vhd|
+!i113 0
+Z11 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+R4
+DEx4 work 8 conv_bcd 0 22 BRVP8PBmZ>jzc0`j3Y[bo3
+!i122 0
+l14
+L13 56
+VFzS7QF]iAgA`49_@h^]QK3
+!s100 joYzaCW9IgKn;?C9GE9TK2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z12 !s107 seg_decoder.vhd|part6.vhd|conv_bcd.vhd|
+!i113 0
+R11
+Epart6
+R1
+R2
+R3
+R4
+!i122 0
+R0
+Z13 8part6.vhd
+Z14 Fpart6.vhd
+l0
+L5 1
+Vl1WAdIBcPkif;Rm;56CUJ0
+!s100 UcWfJTO>`?D^X;J<LR31Y3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R12
+!i113 0
+R11
+Aarch
+R2
+R3
+R4
+DEx4 work 5 part6 0 22 l1WAdIBcPkif;Rm;56CUJ0
+!i122 0
+l29
+L11 25
+V8c>f1T[:W9XjUd4lzTzQQ1
+!s100 Woj`R68@C?30Z7H_hfOK42
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R12
+!i113 0
+R11
+Eseg_decoder
+R1
+R3
+R4
+!i122 0
+R0
+Z15 8seg_decoder.vhd
+Z16 Fseg_decoder.vhd
+l0
+L4 1
+V[YN9:f^OBSU?bE2k>U;Ii2
+!s100 Mb;C3FNAAn`E4=BXlCUkV1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R12
+!i113 0
+R11
+Abehavior
+R3
+R4
+DEx4 work 11 seg_decoder 0 22 [YN9:f^OBSU?bE2k>U;Ii2
+!i122 0
+l12
+L10 28
+Vfbd;3;92oESmOKU=NedRY3
+!s100 bJZ61MJJiQU9hF<ZLYV]W1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R12
+!i113 0
+R11

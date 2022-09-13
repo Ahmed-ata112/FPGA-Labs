@@ -1,0 +1,41 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+entity fast_to_slow_clk is
+  generic (
+    ratio : real := 0.5;
+    max_frequency : integer := 50000000
+  );
+  port (
+    fast_Clk : in std_logic;
+    slow_clock : out std_logic
+  );
+
+end entity;
+architecture Behavior of fast_to_slow_clk is
+  signal fast_count : unsigned(31 downto 0) := (others => '0');
+  signal slow_clock_sig : std_logic := '0';
+  component seg_decoder
+    port (
+      in_decoder : in std_logic_vector(4 - 1 downto 0);
+      out_decoder : out std_logic_vector(7 - 1 downto 0)
+    );
+  end component;
+
+begin
+
+  process (fast_Clk)
+  begin
+    if rising_edge(fast_Clk) then
+      if fast_count = integer(real(max_frequency) * ratio) then
+        slow_clock_sig <= not slow_clock_sig;
+        fast_count <= (others => '0');
+      else
+        fast_count <= fast_count + 1;
+      end if;
+
+    end if;
+  end process;
+  slow_clock <= slow_clock_sig;
+
+end Behavior;

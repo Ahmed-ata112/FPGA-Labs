@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/part3
+Epart3
+Z1 w1659954741
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8part3.vhd
+Z6 Fpart3.vhd
+l0
+L4 1
+VbD0^JhEnc@6jL54Zj72OD3
+!s100 <Q22c0FLjG^R3Aa77^<SU2
+Z7 OL;C;2021.2;73
+32
+Z8 !s110 1659954772
+!i10b 1
+Z9 !s108 1659954771.000000
+Z10 !s90 part3.vhd|
+!s107 part3.vhd|
+!i113 0
+Z11 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+DEx4 work 5 part3 0 22 bD0^JhEnc@6jL54Zj72OD3
+!i122 0
+l13
+L10 13
+V3e4TMTe:=ajDKn=_J`KgD0
+!s100 C8;6P=VB6<hAze;hMH@@h2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z12 !s107 part3.vhd|
+!i113 0
+R11

@@ -1,0 +1,86 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile part1_tb.vhd
+vsim work.ram32x4
+# vsim work.ram32x4 
+# Start time: 19:00:10 on Sep 04,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.ram32x4(syn)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+vsim work.p1_testbench
+# End time: 19:00:17 on Sep 04,2022, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim work.p1_testbench 
+# Start time: 19:00:17 on Sep 04,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.p1_testbench(rtl)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+add wave -position insertpoint  \
+sim:/p1_testbench/addr_tb \
+sim:/p1_testbench/clk_tb \
+sim:/p1_testbench/din_tb \
+sim:/p1_testbench/T_clk \
+sim:/p1_testbench/wren_tb
+run
+run
+run
+run
+# Causality operation skipped due to absence of debug database file
+vsim work.p1_testbench -voptargs=+acc
+# End time: 19:01:16 on Sep 04,2022, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 0
+# vsim work.p1_testbench -voptargs="+acc" 
+# Start time: 19:01:16 on Sep 04,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.p1_testbench(rtl)#1
+# Loading work.lab9_part1(rtl)#1
+# Loading altera_mf.altera_mf_components
+# Loading work.ram32x4(syn)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+add wave -position insertpoint  \
+sim:/p1_testbench/addr_tb \
+sim:/p1_testbench/clk_tb \
+sim:/p1_testbench/din_tb \
+sim:/p1_testbench/dout_tb \
+sim:/p1_testbench/T_clk \
+sim:/p1_testbench/wren_tb
+run
+run
+run

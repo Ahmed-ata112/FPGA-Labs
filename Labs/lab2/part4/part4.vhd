@@ -1,0 +1,48 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity part4 is
+  port(
+    X, Y                   : in  std_logic_vector(3 downto 0);
+    Ci                     : in  std_logic;
+    HEX0, HEX1, HEX3, HEX5 : out std_logic_vector(6 downto 0);
+    S                      : out std_logic_vector(3 downto 0);
+    Co                     : out std_logic;
+    error                  : out std_logic);
+end part4;
+
+architecture add of part4 is
+
+  component part3 is
+    port(
+      AA, B : in  std_logic_vector(3 downto 0);
+      Ci    : in  std_logic;
+      S     : out std_logic_vector(3 downto 0);
+      Co    : out std_logic);
+  end component;
+
+  component part1 is
+    port(
+      N0   : in  std_logic_vector(3 downto 0);
+      N1   : in  std_logic_vector(3 downto 0);
+      HEX0 : out std_logic_vector(6 downto 0);
+      HEX1 : out std_logic_vector(6 downto 0));
+  end component;
+
+  signal sigHEX0 : std_logic_vector(3 downto 0);
+  signal sigHEX1 : std_logic_vector(3 downto 0);
+  signal carry   : std_logic;
+  signal sum     : std_logic_vector(3 downto 0);
+
+begin
+  adder : part3 port map(X, Y, Ci, sum, carry);
+  SegXY : part1 port map(X, Y, HEX5, HEX3);
+  SegS : part1 port map(sigHEX0, sigHEX1, HEX0, HEX1);
+
+  error <= '0' when ((X < "1010") and (Y < "1010")) else '1';
+
+  sigHEX0 <= std_logic_vector(unsigned(sum) + 6) when (carry = '1') else sum when (sum < "1010") else std_logic_vector(unsigned(sum) - 10);
+  sigHEX1 <= "0001" when (carry = '1') else "0000" when (sum < "1010") else "0001";
+
+end add;

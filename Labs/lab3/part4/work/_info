@@ -1,0 +1,167 @@
+m255
+K4
+z2
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab3/part4
+Edlatch
+Z1 w1659951870
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8dlatch.vhd
+Z5 Fdlatch.vhd
+l0
+L3 1
+VA@S@X7XAWIRNclHK3X9232
+!s100 J>T1hmX5mM_D]nnGZ_WRV1
+Z6 OL;C;2021.2;73
+32
+Z7 !s110 1659952012
+!i10b 1
+Z8 !s108 1659952012.000000
+Z9 !s90 dlatch.vhd|neg_dff.vhd|part4.vhd|p_dff.vhd|
+!s107 p_dff.vhd|part4.vhd|neg_dff.vhd|dlatch.vhd|
+!i113 0
+Z10 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+DEx4 work 6 dlatch 0 22 A@S@X7XAWIRNclHK3X9232
+!i122 0
+l10
+L9 9
+V7ChUULkWnNdR@R:YPQM><1
+!s100 a3V?0A5[aSDa^clmzYD4E2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+Z11 !s107 p_dff.vhd|part4.vhd|neg_dff.vhd|dlatch.vhd|
+!i113 0
+R10
+Eneg_dff
+Z12 w1659951086
+R2
+R3
+!i122 0
+R0
+Z13 8neg_dff.vhd
+Z14 Fneg_dff.vhd
+l0
+L3 1
+VaKB^TZfdNfjV`ff7?E@of2
+!s100 n7`]UGN>SVn^FoFnN^Mk^3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R11
+!i113 0
+R10
+Abehavior
+R2
+R3
+DEx4 work 7 neg_dff 0 22 aKB^TZfdNfjV`ff7?E@of2
+!i122 0
+l9
+L8 9
+V;[E=1VLJVX9FC7I?AIPHC2
+!s100 VKlam_?L>KIgE:?T<z0VI1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R11
+!i113 0
+R10
+Ep_dff
+Z15 w1659951253
+R2
+R3
+!i122 0
+R0
+Z16 8p_dff.vhd
+Z17 Fp_dff.vhd
+l0
+L3 1
+VjB<ZK>T4cXZjPnGHh1ZjB1
+!s100 QYU@Y@oTBlz<jO3LFi6`g0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R11
+!i113 0
+R10
+Abehavior
+R2
+R3
+DEx4 work 5 p_dff 0 22 jB<ZK>T4cXZjPnGHh1ZjB1
+!i122 0
+l9
+L8 9
+VGBk_UVEkQiWoBZJ^Fc7[[0
+!s100 o0bf8zjQh[^a2:h<=3POJ1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R11
+!i113 0
+R10
+Epart4
+Z18 w1659951884
+R2
+R3
+!i122 0
+R0
+Z19 8part4.vhd
+Z20 Fpart4.vhd
+l0
+L4 1
+VoRole:]:nZgcG3Z5;lKBk2
+!s100 0_K6PaP_iV_^bQ^Ck<aj61
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R11
+!i113 0
+R10
+Astructural
+R2
+R3
+DEx4 work 5 part4 0 22 oRole:]:nZgcG3Z5;lKBk2
+!i122 0
+l32
+L9 29
+Vgd=SW3=<0QW;K;HcFKh?m0
+!s100 nT8IZFZR^U]43S2Mai3U_1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R11
+!i113 0
+R10

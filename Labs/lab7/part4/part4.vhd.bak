@@ -1,0 +1,93 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity part4 is
+  port (
+    fast_Clk : in std_logic;
+    key_start : in std_logic;
+    letter : in std_logic_vector (2 downto 0);
+    LEDR : out std_logic
+  );
+end part4;
+
+architecture arch of part4 is
+
+  signal slow_clock : std_logic;
+  signal fast_count : unsigned(31 downto 0) := (others => '0');
+  signal half_count : unsigned (7 downto 0) := (others => '0');
+begin
+  process (fast_Clk)
+  begin
+    if rising_edge(fast_Clk) then
+      if fast_count = 25 then
+        half_count <= half_count + 1;
+        fast_count <= (others => '0');
+      else
+        fast_count <= fast_count + 1;
+      end if;
+      if key_start = '0' then
+        half_count <= (others => '0');
+      end if;
+    end if;
+  end process;
+
+  -- process(key_start)
+  -- begin
+  --     if key_start = '0' then
+  --         half_count <= (others => '0'); 
+  --     end if;    
+  -- end process;   
+
+  process (key_start, half_count)
+  begin
+    if key_start = 1 then
+      case letter is
+        when "000" => --A
+          if (half_count < 1 or (half_count >= 2 and half_count < 5)) then
+            LEDR <= '1';
+          else LEDR <= '0';
+          end if;
+        when "001" => --B
+          if (half_count < 3 or (half_count >= 4 and half_count < 5) or
+            (half_count >= 6 and half_count < 7) or (half_count >= 8 and half_count < 9)) then
+            LEDR <= '1';
+          else LEDR <= '0';
+          end if;
+          -- when "010" => --C
+          --         if (half_count < 3 or (half_count >= 4 and half_count < 5) or 
+          --            (half_count >= 6 and half_count < 7) or (half_count >= 8 and half_count < 9))  then  LEDR <= '1' ;
+          --         else LEDR <= '0' ;
+          --         end if;   
+          -- when "011" => --D
+          --         if (half_count < 3 or (half_count >= 4 and half_count < 5) or 
+          --            (half_count >= 6 and half_count < 7) or (half_count >= 8 and half_count < 9))  then  LEDR <= '1' ;
+          --         else LEDR <= '0' ;
+          --         end if;    
+          -- when "100" => --E
+          --         if (half_count < 3 or (half_count >= 4 and half_count < 5) or 
+          --            (half_count >= 6 and half_count < 7) or (half_count >= 8 and half_count < 9))  then  LEDR <= '1' ;
+          --         else LEDR <= '0' ;
+          --         end if;    
+          -- when "101" =>  --F
+          --         if (half_count < 3 or (half_count >= 4 and half_count < 5) or 
+          --            (half_count >= 6 and half_count < 7) or (half_count >= 8 and half_count < 9))  then  LEDR <= '1' ;
+          --         else LEDR <= '0' ;
+          --         end if;  
+          -- when "110" =>  --G
+          --         if (half_count < 3 or (half_count >= 4 and half_count < 5) or 
+          --            (half_count >= 6 and half_count < 7) or (half_count >= 8 and half_count < 9))  then  LEDR <= '1' ;
+          --         else LEDR <= '0' ;
+          --         end if;    
+          -- when "111" =>  --H
+          --         if (half_count < 3 or (half_count >= 4 and half_count < 5) or 
+          --            (half_count >= 6 and half_count < 7) or (half_count >= 8 and half_count < 9))  then  LEDR <= '1' ;
+          --         else LEDR <= '0' ;
+          --         end if;                                            
+        when others =>
+          LEDR <= '0';
+      end case;
+    end if;
+  end process;
+
+end architecture;
