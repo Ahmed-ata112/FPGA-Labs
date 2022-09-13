@@ -4,7 +4,7 @@ Solutions of the Intel [Digital Logic FPGA Academy labs ](https://fpgacademy.org
 
 # Our Board
 
-> DE0-CV
+## Terasic DE0-CV
 
 > ![board](./assets/de0cv.jpg)
 
