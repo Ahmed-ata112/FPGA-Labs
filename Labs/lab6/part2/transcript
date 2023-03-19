@@ -1,0 +1,547 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim work.part2_tb 
+# Start time: 13:16:34 on Aug 24,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.hexas_pck(body)
+# Loading work.part2_tb(bench)#1
+# Loading work.part6(arch)#1
+add wave -position insertpoint  \
+sim:/part2_tb/clock \
+sim:/part2_tb/reset \
+sim:/part2_tb/A \
+sim:/part2_tb/add_sub \
+sim:/part2_tb/S \
+sim:/part2_tb/HEX0 \
+sim:/part2_tb/HEX1 \
+sim:/part2_tb/HEX2 \
+sim:/part2_tb/HEX3 \
+sim:/part2_tb/carry \
+sim:/part2_tb/overflow \
+sim:/part2_tb/clk_period
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 1 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 1 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 2 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 2 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 3 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 400 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 3 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 400 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 4 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 4 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 5 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 500 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 5 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 500 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 6 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 6 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 7 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 600 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 7 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 600 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 8 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 8 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 9 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 700 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 9 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 700 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 10 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 750 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 10 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 750 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 11 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 800 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 11 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 800 ns  Iteration: 2  Instance: /part2_tb
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 1 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 1 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 2 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 2 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 3 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 400 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 3 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 400 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 4 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 4 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 5 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 500 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 5 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 500 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 6 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 6 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1101111
+#    Time: 550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 7 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 600 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 7 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 600 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 8 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 8 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 9 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 700 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 9 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 700 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 10 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 750 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 10 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 750 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 11 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 800 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 11 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 800 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 12 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 850 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 12 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 850 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 13 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 900 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 13 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 900 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 14 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 950 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 14 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 950 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 15 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1 us  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 15 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1 us  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 16 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1050 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 16 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1050 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 17 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1100 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 17 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1100 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 18 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1150 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 18 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1150 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 19 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1200 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 19 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1111001
+#    Time: 1200 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 20 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1250 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 20 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000111
+#    Time: 1250 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 21 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1300 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 21 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1300 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 22 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 22 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 23 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1400 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 23 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1400 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 24 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 24 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 25 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1500 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 25 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1500 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 26 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 26 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 27 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1600 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 27 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1600 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 28 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 28 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 29 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1700 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 29 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1700 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: SIMULATION DONE
+#    Time: 1725 ns  Iteration: 0  Instance: /part2_tb
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 1 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 1 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 300 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 2 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 2 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 3 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 400 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 3 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 400 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 4 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 4 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 5 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 500 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 5 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 500 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 6 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 6 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1101111
+#    Time: 550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 7 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 600 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 7 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 600 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 8 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 8 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000110
+#    Time: 650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 9 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 700 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 9 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 700 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 10 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 750 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 10 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 750 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 11 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 800 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 11 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 800 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 12 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 850 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 12 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 850 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 13 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 900 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 13 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 900 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 14 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 950 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 14 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 950 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 15 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1 us  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 15 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1 us  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 16 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1050 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 16 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1050 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 17 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1100 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 17 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1100 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 18 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1150 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 18 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1150 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 19 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1200 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 19 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1200 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 20 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1250 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 20 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1111001
+#    Time: 1250 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 21 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1300 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 21 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0000111
+#    Time: 1300 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 22 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 22 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1350 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 23 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1400 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 23 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1400 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 24 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 24 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1450 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 25 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1500 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 25 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1500 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 26 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 26 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1550 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 27 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1600 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 27 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1600 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 28 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 28 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1650 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 29 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1700 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 29 FOR OUTPUT HEX3 IS SUCCEEDED
+# 1110001
+#    Time: 1700 ns  Iteration: 2  Instance: /part2_tb
+run
+# ** Note: TEST NUMBER: 30 FOR OUTPUT HEX2 IS SUCCEEDED
+# 
+#    Time: 1750 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: TEST NUMBER: 30 FOR OUTPUT HEX3 IS SUCCEEDED
+# 0111111
+#    Time: 1750 ns  Iteration: 2  Instance: /part2_tb
+# ** Note: SIMULATION DONE
+#    Time: 1775 ns  Iteration: 0  Instance: /part2_tb
+run
+run
+run

@@ -1,0 +1,110 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab5/part1
+T_opt
+!s110 1660124929
+Vz<aMPJkHBE]BO;LfE5Zz_0
+04 5 8 work part1 behavior 1
+=1-40b03402a18f-62f37efe-b3-b5c
+!s124 OEM10U1 
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ecounter
+Z0 w1660123678
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z5 dE:/engineering/PyramidTech/Repositories/team4_repo/pti22_team4/labs/lab5/part1
+Z6 8counter.vhd
+Z7 Fcounter.vhd
+l0
+L4 1
+VJo`@7_nmeU?ACKGNm_;Uo2
+!s100 YOdA^LO`Qb78<RjTQicED3
+Z8 OL;C;2021.2;73
+32
+Z9 !s110 1660124892
+!i10b 1
+Z10 !s108 1660124891.000000
+Z11 !s90 counter.vhd|part1.vhd|
+Z12 !s107 part1.vhd|counter.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 7 counter 0 22 Jo`@7_nmeU?ACKGNm_;Uo2
+!i122 2
+l13
+L11 13
+VXC@6IhE516I[>_Q2i?>m_1
+!s100 Y1j58hQ@XP3JJnDOoMJLk1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Epart1
+R0
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+R3
+R4
+!i122 2
+R5
+Z15 8part1.vhd
+Z16 Fpart1.vhd
+l0
+L5 1
+Vc?=GXWUN^QRVUbhoUzDGz1
+!s100 UWU]FZ?GTaPJ?I0C;]0Qi1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Abehavior
+R14
+R1
+R2
+R3
+R4
+DEx4 work 5 part1 0 22 c?=GXWUN^QRVUbhoUzDGz1
+!i122 2
+l19
+L17 21
+VS^I>?DnMKCK?^I=Y]B^2J1
+!s100 BkN5AYmLLmhaajl1z`;CT1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13

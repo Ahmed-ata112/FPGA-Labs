@@ -1,0 +1,43 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity part1 is
+  port(
+    clock, reset    : in  std_logic;
+    A               : in  std_logic_vector(7 downto 0);
+    S               : out std_logic_vector(7 downto 0);
+    carry, overflow : out std_logic
+  );
+end part1;
+
+architecture arch of part1 is
+
+  component reg
+    port(
+      clock, reset : in  std_logic;
+      A            : in  std_logic_vector(7 downto 0);
+      A_reg        : out std_logic_vector(7 downto 0)
+    );
+  end component;
+
+  component full_adder
+    generic(n : integer);
+    port(
+      input1, input2 : in  std_logic_vector(n - 1 downto 0);
+      sum            : out std_logic_vector(n - 1 downto 0);
+      carry          : out std_logic
+    );
+  end component;
+
+  signal A_reg, S_reg, out_adder : std_logic_vector(7 downto 0);
+begin
+
+  reg_a : reg port map(clock, reset, A, A_reg);
+  add : full_adder generic map(n => 8) port map(A, S_reg, out_adder, carry);
+  reg_S : reg port map(clock, reset, out_adder, S_reg);
+
+  overflow <= '1' when (out_adder(7) = '1' and A_reg(7) = '1' and out_adder(7) = '0') or (out_adder(7) = '0' and A_reg(7) = '0' and out_adder(7) = '1') else '0';
+  S <= S_reg;
+
+end architecture;

@@ -1,0 +1,43 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.numeric_std.all;
+
+entity minCounter is
+  generic (
+    n : natural := 8;
+    k : integer := 20
+  );
+  
+  port (
+    pre : in std_logic;
+    value_in : in std_logic_vector(n - 1 downto 0);
+    clock : in std_logic;
+    reset_n : in std_logic;
+    clk_enable : in std_logic;
+    rollover : out std_logic;
+    Q : out std_logic_vector(n - 1 downto 0));
+	 
+end entity;
+architecture Behavior of minCounter is
+  signal value : unsigned(n - 1 downto 0);
+begin
+  process (clock, reset_n, pre)
+  begin
+    if(pre = '0') then value <= unsigned(value_in);
+    elsif (reset_n = '0') then
+      value <= (others => '0');
+    elsif ((clock'EVENT) and (clock = '1')) then
+      if clk_enable = '1' then
+        if (value = to_unsigned(k, value'length) - 1) then
+          value <= (others => '0');
+        else
+          value <= value + 1;
+        end if;
+      end if;
+    end if;
+  end process;
+
+  Q <= std_logic_vector(value);
+  rollover <= '1' when value = to_unsigned(k, value'length) - 1 else '0';
+end Behavior;
