@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all ;
+
+entity COUNTER_16BIT is
+  port (
+    START,CLK 	: in std_logic;
+    HEX0,HEX1,HEX2,HEX3		: out std_logic_vector(6 downto 0)
+  );
+end COUNTER_16BIT;

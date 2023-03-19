@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.all;
+use IEEE.STD_LOGIC_UNSIGNED.all;
+
+entity COUNTER is
+	 generic (size : integer := 16);
+    Port ( rst,clk : in std_logic;
+           Q: OUT std_logic_vector(size-1 downto 0));
+end COUNTER;
+
+architecture count_arch of COUNTER is
+   signal count : std_logic_vector(size-1 downto 0);
+    begin
+      process(rst,clk)
+        begin
+          if (rst = '1') then 
+				count <= (others => '0');
+          elsif (rising_edge(clk)) then 
+				count <= count + 1;
+          end if;
+         end process;
+      Q <= count;
+	end count_arch;

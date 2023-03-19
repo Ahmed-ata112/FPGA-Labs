@@ -1,0 +1,8 @@
+ieee;
+use ieee.std_logic_1164;
+
+entity tff is
+  port (
+    T, clk : in std_logic;
+    Q, clr : out std_logic);
+end tff;
