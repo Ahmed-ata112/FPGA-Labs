@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+-- Simple entity that connects the SW switches to the LEDR lights
+entity part2 is
+  port (
+    V 					: in std_logic_vector(3 downto 0);
+    HEX0,HEX1 			: out std_logic_vector(6 downto 0)
+  );
+end part2;
+
+architecture Behavior3 of part2 is
+
+  component MUX_2X1 
+    port (
+      X,Y	: in std_logic_vector(3 downto 0);
+      S		: in std_logic;
+      M 		: out std_logic_vector(3 downto 0)
+    );
+  end component;
+
+  signal out_comparator : std_logic;
+  
+
+begin
+out_comparator<= '1' when (v>"1001") else '0' ;
+  m1 : MUX_2X1 port map(U, V, S(0), sg1);
+
+end Behavior3;
