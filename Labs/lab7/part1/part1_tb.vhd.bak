@@ -1,0 +1,54 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_textio.all;
+use ieee.numeric_std.all;
+library std;
+use std.textio.all;
+
+entity part1_tb is
+end part1_tb;
+
+architecture behavior_tb of part1_tb is
+  signal clk, w, reset : std_logic := '0';
+  signal z : std_logic;
+  signal state_out : std_logic_vector(8 downto 0);
+
+  constant period : time := 50 ns;
+
+  component part1
+    port (
+      w : in std_logic;
+      clk : in std_logic;
+      reset : in std_logic;
+      z : out std_logic;
+      state_out : out std_logic_vector(8 downto 0)
+    );
+  end component;
+begin
+  p1 : part1 port map(w, clk, reset, z, state_out);
+
+  clk <= not clk after (period/2);
+
+  stimulus :
+  process
+variable zprint : string(1 to 1);
+    variable linee : line;
+    file out_file : text open WRITE_MODE is "out.txt";
+  begin
+    wait for period/4;
+    reset <= '0';
+    wait for period/2;
+    reset <= '1';
+    w <= '1';
+    wait for (period/4) * 17;
+zprint(1) := z;
+      write(linee, "z after 4 edges with w=1 is: " & std_logic'image(z) & LF);
+    writeline(out_file, linee);
+    w <= '0';
+    wait for period * 4;
+zprint(1) := z;
+    write(linee, "z after 4 edges with w=0 is: " & std_logic'image(z) & LF);
+    writeline(out_file, linee);
+  end process;
+
+end behavior_tb;

@@ -1,0 +1,958 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim dualMem 
+# Start time: 19:06:06 on Sep 04,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: part4.vhd(40): (vopt-3473) Component instance "seg_decoder_inst0 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(45): (vopt-3473) Component instance "seg_decoder_inst1 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(50): (vopt-3473) Component instance "seg_decoder_inst2 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(55): (vopt-3473) Component instance "seg_decoder_inst3 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(60): (vopt-3473) Component instance "seg_decoder_inst4 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(65): (vopt-3473) Component instance "seg_decoder_inst5 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=6.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.dualmem(arch)#1
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst0 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst1 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst2 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst3 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst4 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst5 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+vsim work.dualmem
+# End time: 19:06:33 on Sep 04,2022, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 12
+# vsim work.dualmem 
+# Start time: 19:06:33 on Sep 04,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.dualmem(arch)#1
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst0 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst1 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst2 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst3 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst4 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst5 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+vsim work.dualmem
+# End time: 19:06:52 on Sep 04,2022, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 6
+# vsim work.dualmem 
+# Start time: 19:06:52 on Sep 04,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.dualmem(arch)#1
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst0 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst1 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst2 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst3 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst4 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst5 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+vcom -2008 D:/Digital_Design/pti22_team4/labs/mem_lab/part4/part4.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 19:07:44 on Sep 04,2022
+# vcom -reportprogress 300 -2008 D:/Digital_Design/pti22_team4/labs/mem_lab/part4/part4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dualMem
+# -- Compiling architecture arch of dualMem
+# End time: 19:07:44 on Sep 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.dualmem
+# End time: 19:08:30 on Sep 04,2022, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 6
+# vsim work.dualmem 
+# Start time: 19:08:30 on Sep 04,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: part4.vhd(40): (vopt-3473) Component instance "seg_decoder_inst0 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(45): (vopt-3473) Component instance "seg_decoder_inst1 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(50): (vopt-3473) Component instance "seg_decoder_inst2 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(55): (vopt-3473) Component instance "seg_decoder_inst3 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(60): (vopt-3473) Component instance "seg_decoder_inst4 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Warning: part4.vhd(65): (vopt-3473) Component instance "seg_decoder_inst5 : seg_decoder" is not bound.
+#         Region: /dualMem
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=6.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading altera_mf.altera_mf_components
+# Loading work.dualmem(arch)#1
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst0 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst1 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst2 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst3 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst4 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst5 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)#1
+add wave -position end  sim:/dualmem/fast_Clk
+force -freeze sim:/dualmem/fast_Clk 1 0, 0 {10 ns} -r 20
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 20 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 30 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 40 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 50 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 60 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 70 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 80 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 90 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 100 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 110 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 120 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 130 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 140 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 150 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 160 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 170 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 180 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 190 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 200 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+add wave -position end  sim:/dualmem/data_out
+add wave -position end  sim:/dualmem/rst
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=6.
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst0 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst1 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst2 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst3 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst4 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+# ** Warning: (vsim-3473) Component instance "seg_decoder_inst5 : seg_decoder" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /dualmem File: part4.vhd
+force -freeze sim:/dualmem/rst 1 0
+force -freeze sim:/dualmem/fast_Clk 1 0, 0 {10 ns} -r 20
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 20 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 30 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 40 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 50 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 50 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 60 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 70 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 70 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 80 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 90 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 100 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 110 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 110 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 120 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 120 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 130 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 130 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 140 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 140 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 150 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 150 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 160 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 160 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 170 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 170 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 180 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 180 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 190 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 190 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 200 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 200 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 210 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 210 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 220 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 220 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 230 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 230 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 240 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 240 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 250 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 250 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 260 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 260 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 270 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 270 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 280 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 280 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 290 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 290 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 300 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 300 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 310 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 310 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 320 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 320 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 330 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 330 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 340 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 340 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 350 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 350 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 360 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 360 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 370 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 370 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 380 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 380 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 390 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 390 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 400 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 400 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 410 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 410 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 420 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 420 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 430 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 430 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 440 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 440 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 450 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 450 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 460 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 460 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 470 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 470 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 480 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 480 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 490 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 490 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 500 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 500 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 510 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 510 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 520 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 520 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 530 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 530 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 540 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 540 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 550 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 550 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 560 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 560 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 570 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 570 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 580 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 580 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 590 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 590 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 600 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 600 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 610 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 610 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 620 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 620 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 630 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 630 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 640 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 640 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 650 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 650 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 660 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 660 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 670 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 670 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 680 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 680 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 690 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 690 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 700 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 700 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 710 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 710 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 720 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 720 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 730 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 730 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 740 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 740 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 750 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 750 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 760 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 760 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 770 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 770 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 780 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 780 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 790 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 790 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 800 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 800 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 810 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 810 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 820 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 820 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 830 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 830 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 840 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 840 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 850 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 850 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 860 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 860 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 870 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 870 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 880 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 880 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 890 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 890 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 900 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 900 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 910 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 910 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 920 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 920 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 930 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 930 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 940 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 940 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 950 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 950 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 960 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 960 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 970 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 970 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 980 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 980 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 990 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 990 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1 us  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1 us  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1010 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1010 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1020 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1020 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1030 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1030 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1040 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1040 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1050 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1050 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1060 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1060 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1070 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1070 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1080 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1080 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1090 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1090 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1100 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1100 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1110 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1110 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1120 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1120 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1130 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1130 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1140 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1140 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1150 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1150 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1160 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1160 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1170 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1170 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1180 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1180 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1190 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1190 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1200 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1200 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1210 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1210 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1220 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1220 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1230 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1230 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1240 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1240 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1250 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1250 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1260 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1260 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1270 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1270 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1280 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1280 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1290 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1290 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1300 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1300 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1310 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1310 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1320 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1320 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1330 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1330 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1340 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1340 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1350 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1350 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1360 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1360 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1370 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1370 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1380 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1380 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1390 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1390 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1400 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1400 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1410 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1410 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1420 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1420 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1430 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1430 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1440 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1440 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1450 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1450 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1460 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1460 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1470 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1470 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1480 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1480 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1490 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1490 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1500 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1500 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1510 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1510 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1520 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1520 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1530 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1530 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1540 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1540 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1550 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1550 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1560 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1560 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1570 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1570 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1580 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1580 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1590 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1590 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1600 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1600 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1610 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1610 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1620 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1620 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1630 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1630 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1640 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1640 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1650 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1650 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1660 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1660 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1670 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1670 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1680 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1680 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1690 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1690 ns  Iteration: 0  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 1700 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 1700 ns  Iteration: 1  Instance: /dualmem/ram32x4_inst/altsyncram_component

@@ -1,0 +1,152 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim .\part6_tb.vhd 
+# Start time: 21:30:28 on Aug 14,2022
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Error loading design
+# End time: 21:30:28 on Aug 14,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -voptargs=+acc work.part1_tb
+# vsim -voptargs="+acc" work.part1_tb 
+# Start time: 21:30:35 on Aug 14,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "part1(Behavior)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(bench)#1
+# Loading work.part1(behavior)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim -voptargs=+acc work.part1_tb
+# End time: 21:32:49 on Aug 14,2022, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.part1_tb 
+# Start time: 21:32:49 on Aug 14,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(bench)#1
+# Loading work.part1(behavior)#1
+add wave -position insertpoint  \
+sim:/part1_tb/clk \
+sim:/part1_tb/clk_period \
+sim:/part1_tb/reset \
+sim:/part1_tb/w \
+sim:/part1_tb/y \
+sim:/part1_tb/z
+run
+vcom {D:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab7/part1/part1.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:35:50 on Aug 14,2022
+# vcom -reportprogress 300 D:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab7/part1/part1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity part1
+# -- Compiling architecture Behavior of part1
+# End time: 21:35:50 on Aug 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom {D:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab7/part1/part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:35:50 on Aug 14,2022
+# vcom -reportprogress 300 D:/Academic edu/Misc/PT intern/repos/pti22_team4/labs/lab7/part1/part1_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity part1_tb
+# -- Compiling architecture bench of part1_tb
+# End time: 21:35:50 on Aug 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.part1 work.part1_tb
+# End time: 21:35:55 on Aug 14,2022, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.part1 work.part1_tb 
+# Start time: 21:35:55 on Aug 14,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "part1(Behavior)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "part1(Behavior)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1(behavior)#1
+# Loading work.part1_tb(bench)#1
+add wave -position end  sim:/part1/clk
+add wave -position end  sim:/part1/next_y
+add wave -position end  sim:/part1/reset
+add wave -position end  sim:/part1/w
+add wave -position end  sim:/part1/y
+add wave -position end  sim:/part1/z
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.part1_tb
+# End time: 21:36:30 on Aug 14,2022, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim work.part1_tb 
+# Start time: 21:36:30 on Aug 14,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(bench)#1
+vsim -voptargs=+acc work.part1_tb
+# End time: 21:36:38 on Aug 14,2022, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.part1_tb 
+# Start time: 21:36:38 on Aug 14,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "part1(Behavior)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(bench)#1
+# Loading work.part1(behavior)#1
+add wave -position insertpoint  \
+sim:/part1_tb/clk \
+sim:/part1_tb/clk_period \
+sim:/part1_tb/reset \
+sim:/part1_tb/w \
+sim:/part1_tb/z
+run
+# Debug data file, vsim.dbg, does not exist.
+# 
+# Invoke vsim with -debugDB to create this file.
+# Debug data file, vsim.dbg, does not exist.
+# 
+# Invoke vsim with -debugDB to create this file.

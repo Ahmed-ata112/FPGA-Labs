@@ -1,0 +1,754 @@
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd failed with 8 errors.
+# 2 compiles, 1 failed with 8 errors.
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.part1_tb
+# vsim work.part1_tb 
+# Start time: 22:11:20 on Aug 21,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(behavior_tb)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.part1_tb
+# End time: 22:13:19 on Aug 21,2022, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 4
+# vsim work.part1_tb 
+# Start time: 22:13:19 on Aug 21,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(behavior_tb)#1
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/part1_tb/clk
+add wave -position end  sim:/part1_tb/w
+add wave -position end  sim:/part1_tb/reset
+add wave -position end  sim:/part1_tb/z
+add wave -position end  sim:/part1_tb/period
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+run
+run
+run
+run
+run
+run
+# Compile of part1_tb.vhd failed with 2 errors.
+# Compile of part1_tb.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of part1_tb.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(behavior_tb)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(behavior_tb)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-2009) At least one design unit was compiled with optimization level -O0 or -O1.
+# Use vdir -l command to find such design units.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(behavior_tb)#1
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(behavior_tb)#1
+add wave -position end  sim:/part1_tb/state_out
+add wave -position end  sim:/part1_tb/clk
+add wave -position end  sim:/part1_tb/w
+add wave -position end  sim:/part1_tb/reset
+add wave -position end  sim:/part1_tb/z
+add wave -position end  sim:/part1_tb/period
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(behavior_tb)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of part1.vhd was successful.
+# Compile of part1_tb.vhd failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+vcom -work work -2002 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1136) Unknown identifier "to_hstring".
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1600) No feasible entries for subprogram "write".
+#    Visible subprograms are:
+#       (implicit) TEXTIO.write[std.TEXTIO.TEXT, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(15)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(123)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(126)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BOOLEAN, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(129)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.CHARACTER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(132)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, INTEGER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(135)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.TEXTIO.SIDE, NATURAL, NATURAL] at vhdl_src/std/textio.vhd(138)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.STRING, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(145)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.TIME, std.TEXTIO.SIDE, NATURAL, std.STANDARD.TIME] at vhdl_src/std/textio.vhd(148)
+#       (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_ULOGIC, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(29)
+#       (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_ULOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(31)
+#       (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_LOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(37)
+# ** Note: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(57): VHDL Compiler exiting
+# C:/intelFPGA_lite/21.1/questa_fse/win64/vcom failed.
+vcom -work work -2002 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1136) Unknown identifier "to_hstring".
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1600) No feasible entries for subprogram "write".
+#    Visible subprograms are:
+#       (implicit) TEXTIO.write[std.TEXTIO.TEXT, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(15)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(123)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(126)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BOOLEAN, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(129)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.CHARACTER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(132)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, INTEGER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(135)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.TEXTIO.SIDE, NATURAL, NATURAL] at vhdl_src/std/textio.vhd(138)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.STRING, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(145)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.TIME, std.TEXTIO.SIDE, NATURAL, std.STANDARD.TIME] at vhdl_src/std/textio.vhd(148)
+#       (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_ULOGIC, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(29)
+#       (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_ULOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(31)
+#       (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_LOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(37)
+# ** Note: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(57): VHDL Compiler exiting
+# C:/intelFPGA_lite/21.1/questa_fse/win64/vcom failed.
+
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}vcom -work work -2002 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# extra characters after close-brace
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+vsim work.part1_tb
+# End time: 23:55:19 on Aug 21,2022, Elapsed time: 1:42:00
+# Errors: 0, Warnings: 2
+# vsim work.part1_tb 
+# Start time: 23:55:19 on Aug 21,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(behavior_tb)#1
+# Loading work.part1(behavior)#1
+add wave -position end  sim:/part1_tb/clk
+add wave -position end  sim:/part1_tb/w
+add wave -position end  sim:/part1_tb/reset
+add wave -position end  sim:/part1_tb/z
+add wave -position end  sim:/part1_tb/state_out
+add wave -position end  sim:/part1_tb/period
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1600) No feasible entries for subprogram "to_hstring".
+#    Visible subprograms are:
+#       (implicit) STANDARD.to_hstring[BIT_VECTOR return std.STANDARD.STRING] at vhdl_src/std/standard.vhd(79)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1600) No feasible entries for subprogram "write".
+#    Visible subprograms are:
+#       (implicit) TEXTIO.write[std.TEXTIO.TEXT, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(15)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(123)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(126)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BOOLEAN, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(129)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.CHARACTER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(132)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, INTEGER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(135)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.TEXTIO.SIDE, NATURAL, NATURAL] at vhdl_src/std/textio.vhd(138)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(142)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.STRING, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(145)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.TIME, std.TEXTIO.SIDE, NATURAL, std.STANDARD.TIME] at vhdl_src/std/textio.vhd(148)
+#       (explicit) NUMERIC_STD.WRITE[std.TEXTIO.LINE, UNRESOLVED_UNSIGNED, std.TEXTIO.SIDE, NATURAL] at vhdl_src/ieee/mti_numeric_std.vhd(2082)
+#       (explicit) NUMERIC_STD.WRITE[std.TEXTIO.LINE, UNRESOLVED_SIGNED, std.TEXTIO.SIDE, NATURAL] at vhdl_src/ieee/mti_numeric_std.vhd(2085)
+#       (explicit) std_logic_1164.WRITE[std.TEXTIO.LINE, STD_ULOGIC, std.TEXTIO.SIDE, NATURAL] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(277)
+#       (explicit) std_logic_1164.WRITE[std.TEXTIO.LINE, STD_ULOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(280)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(45): (vcom-1600) No feasible entries for subprogram "to_hstring".
+#    Visible subprograms are:
+#       (implicit) STANDARD.to_hstring[BIT_VECTOR return std.STANDARD.STRING] at vhdl_src/std/standard.vhd(79)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(45): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(45): (vcom-1600) No feasible entries for subprogram "write".
+#    Visible subprograms are:
+#       (implicit) TEXTIO.write[std.TEXTIO.TEXT, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(15)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(123)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(126)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BOOLEAN, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(129)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.CHARACTER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(132)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, INTEGER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(135)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.TEXTIO.SIDE, NATURAL, NATURAL] at vhdl_src/std/textio.vhd(138)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(142)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.STRING, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(145)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.TIME, std.TEXTIO.SIDE, NATURAL, std.STANDARD.TIME] at vhdl_src/std/textio.vhd(148)
+#       (explicit) NUMERIC_STD.WRITE[std.TEXTIO.LINE, UNRESOLVED_UNSIGNED, std.TEXTIO.SIDE, NATURAL] at vhdl_src/ieee/mti_numeric_std.vhd(2082)
+#       (explicit) NUMERIC_STD.WRITE[std.TEXTIO.LINE, UNRESOLVED_SIGNED, std.TEXTIO.SIDE, NATURAL] at vhdl_src/ieee/mti_numeric_std.vhd(2085)
+#       (explicit) std_logic_1164.WRITE[std.TEXTIO.LINE, STD_ULOGIC, std.TEXTIO.SIDE, NATURAL] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(277)
+#       (explicit) std_logic_1164.WRITE[std.TEXTIO.LINE, STD_ULOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(280)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(51): (vcom-1600) No feasible entries for subprogram "to_hstring".
+#    Visible subprograms are:
+#       (implicit) STANDARD.to_hstring[BIT_VECTOR return std.STANDARD.STRING] at vhdl_src/std/standard.vhd(79)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(51): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(51): (vcom-1600) No feasible entries for subprogram "write".
+#    Visible subprograms are:
+#       (implicit) TEXTIO.write[std.TEXTIO.TEXT, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(15)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(123)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(126)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BOOLEAN, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(129)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.CHARACTER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(132)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, INTEGER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(135)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.TEXTIO.SIDE, NATURAL, NATURAL] at vhdl_src/std/textio.vhd(138)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(142)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.STRING, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(145)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.TIME, std.TEXTIO.SIDE, NATURAL, std.STANDARD.TIME] at vhdl_src/std/textio.vhd(148)
+#       (explicit) NUMERIC_STD.WRITE[std.TEXTIO.LINE, UNRESOLVED_UNSIGNED, std.TEXTIO.SIDE, NATURAL] at vhdl_src/ieee/mti_numeric_std.vhd(2082)
+#       (explicit) NUMERIC_STD.WRITE[std.TEXTIO.LINE, UNRESOLVED_SIGNED, std.TEXTIO.SIDE, NATURAL] at vhdl_src/ieee/mti_numeric_std.vhd(2085)
+#       (explicit) std_logic_1164.WRITE[std.TEXTIO.LINE, STD_ULOGIC, std.TEXTIO.SIDE, NATURAL] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(277)
+#       (explicit) std_logic_1164.WRITE[std.TEXTIO.LINE, STD_ULOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(280)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(52): (vcom-1600) No feasible entries for subprogram "to_hstring".
+#    Visible subprograms are:
+#       (implicit) STANDARD.to_hstring[BIT_VECTOR return std.STANDARD.STRING] at vhdl_src/std/standard.vhd(79)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(52): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(52): (vcom-1600) No feasible entries for subprogram "write".
+#    Visible subprograms are:
+#       (implicit) TEXTIO.write[std.TEXTIO.TEXT, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(15)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(123)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(126)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BOOLEAN, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(129)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.CHARACTER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(132)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, INTEGER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(135)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.TEXTIO.SIDE, NATURAL, NATURAL] at vhdl_src/std/textio.vhd(138)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(142)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.STRING, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(145)
+#       (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.TIME, std.TEXTIO.SIDE, NATURAL, std.STANDARD.TIME] at vhdl_src/std/textio.vhd(148)
+#       (explicit) NUMERIC_STD.WRITE[std.TEXTIO.LINE, UNRESOLVED_UNSIGNED, std.TEXTIO.SIDE, NATURAL] at vhdl_src/ieee/mti_numeric_std.vhd(2082)
+#       (explicit) NUMERIC_STD.WRITE[std.TEXTIO.LINE, UNRESOLVED_SIGNED, std.TEXTIO.SIDE, NATURAL] at vhdl_src/ieee/mti_numeric_std.vhd(2085)
+#       (explicit) std_logic_1164.WRITE[std.TEXTIO.LINE, STD_ULOGIC, std.TEXTIO.SIDE, NATURAL] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(277)
+#       (explicit) std_logic_1164.WRITE[std.TEXTIO.LINE, STD_ULOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(280)
+# ** Note: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(57): VHDL Compiler exiting
+# C:/intelFPGA_lite/21.1/questa_fse/win64/vcom failed.
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): Subprogram "TO_HSTRING" is ambiguous.
+#    Feasible subprograms are:
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1600) No feasible entries for subprogram "to_hstring".
+#    Visible subprograms are:
+#       (implicit) STANDARD.to_hstring[BIT_VECTOR return std.STANDARD.STRING] at vhdl_src/std/standard.vhd(79)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(45): Subprogram "TO_HSTRING" is ambiguous.
+#    Feasible subprograms are:
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(45): (vcom-1600) No feasible entries for subprogram "to_hstring".
+#    Visible subprograms are:
+#       (implicit) STANDARD.to_hstring[BIT_VECTOR return std.STANDARD.STRING] at vhdl_src/std/standard.vhd(79)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(51): Subprogram "TO_HSTRING" is ambiguous.
+#    Feasible subprograms are:
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(51): (vcom-1600) No feasible entries for subprogram "to_hstring".
+#    Visible subprograms are:
+#       (implicit) STANDARD.to_hstring[BIT_VECTOR return std.STANDARD.STRING] at vhdl_src/std/standard.vhd(79)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(52): Subprogram "TO_HSTRING" is ambiguous.
+#    Feasible subprograms are:
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(52): (vcom-1600) No feasible entries for subprogram "to_hstring".
+#    Visible subprograms are:
+#       (implicit) STANDARD.to_hstring[BIT_VECTOR return std.STANDARD.STRING] at vhdl_src/std/standard.vhd(79)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_UNSIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2069)
+#       (explicit) NUMERIC_STD.to_hstring[UNRESOLVED_SIGNED return std.STANDARD.STRING] at vhdl_src/ieee/mti_numeric_std.vhd(2070)
+#       (explicit) std_logic_1164.TO_HSTRING[STD_ULOGIC_VECTOR return std.STANDARD.STRING] at $MODEL_TECH/../vhdl_src/ieee/stdlogic.vhd(268)
+# ** Note: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(57): VHDL Compiler exiting
+# C:/intelFPGA_lite/21.1/questa_fse/win64/vcom failed.
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): Target type std.STANDARD.CHARACTER in variable assignment is different from expression type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(49): Target type std.STANDARD.CHARACTER in variable assignment is different from expression type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(54): VHDL Compiler exiting
+# C:/intelFPGA_lite/21.1/questa_fse/win64/vcom failed.
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+vsim work.part1_tb
+# End time: 00:16:53 on Aug 22,2022, Elapsed time: 0:21:34
+# Errors: 0, Warnings: 1
+# vsim work.part1_tb 
+# Start time: 00:16:53 on Aug 22,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.part1_tb(behavior_tb)#1
+# Loading work.part1(behavior)#1
+add wave -position end  sim:/part1_tb/clk
+add wave -position end  sim:/part1_tb/w
+add wave -position end  sim:/part1_tb/reset
+add wave -position end  sim:/part1_tb/z
+add wave -position end  sim:/part1_tb/state_out
+add wave -position end  sim:/part1_tb/period
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling package myPackage
+# ** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd(9): Variable declaration 'linee' not allowed in this region.
+# ** Note: D:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd(12): VHDL Compiler exiting
+# C:/intelFPGA_lite/21.1/questa_fse/win64/vcom failed.
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling package myPackage
+# -- Compiling package body myPackage
+# -- Loading package myPackage
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package myPackage
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+vsim work.part1_tb
+# End time: 01:07:54 on Aug 22,2022, Elapsed time: 0:51:01
+# Errors: 0, Warnings: 1
+# vsim work.part1_tb 
+# Start time: 01:07:54 on Aug 22,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mypackage(body)
+# Loading work.part1_tb(behavior_tb)#1
+# Loading work.part1(behavior)#1
+add wave -position end  sim:/part1_tb/clk
+add wave -position end  sim:/part1_tb/w
+add wave -position end  sim:/part1_tb/reset
+add wave -position end  sim:/part1_tb/z
+add wave -position end  sim:/part1_tb/state_out
+add wave -position end  sim:/part1_tb/period
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling package myPackage
+# -- Compiling package body myPackage
+# -- Loading package myPackage
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package myPackage
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+vsim work.part1_tb
+# End time: 01:11:48 on Aug 22,2022, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 1
+# vsim work.part1_tb 
+# Start time: 01:11:48 on Aug 22,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mypackage(body)
+# Loading work.part1_tb(behavior_tb)#1
+# Loading work.part1(behavior)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/part1_tb/clk
+add wave -position end  sim:/part1_tb/w
+add wave -position end  sim:/part1_tb/reset
+add wave -position end  sim:/part1_tb/z
+add wave -position end  sim:/part1_tb/state_out
+add wave -position end  sim:/part1_tb/period
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package myPackage
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+vsim work.part1_tb
+# End time: 01:30:28 on Aug 22,2022, Elapsed time: 0:18:40
+# Errors: 0, Warnings: 1
+# vsim work.part1_tb 
+# Start time: 01:30:29 on Aug 22,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mypackage(body)
+# Loading work.part1_tb(behavior_tb)#1
+# Loading work.part1(behavior)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Compiling package myPackage
+# -- Compiling package body myPackage
+# -- Loading package myPackage
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Loading package NUMERIC_STD
+# -- Loading package myPackage
+# -- Compiling entity part1_tb
+# -- Compiling architecture behavior_tb of part1_tb
+vsim work.part1_tb
+# End time: 01:32:05 on Aug 22,2022, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 1
+# vsim work.part1_tb 
+# Start time: 01:32:06 on Aug 22,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mypackage(body)
+# Loading work.part1_tb(behavior_tb)#1
+# Loading work.part1(behavior)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 01:33:21 on Aug 22,2022, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 1

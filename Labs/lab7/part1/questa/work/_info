@@ -1,0 +1,168 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/21.1
+T_opt
+!s110 1661124729
+VM@YlF97gc6KQ4TWe;nkMS2
+04 8 11 work part1_tb behavior_tb 1
+=1-e454e83d5798-6302c077-334-35c8
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Pmypackage
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 74
+Z5 w1661124702
+Z6 dD:/Digital_Design/pti22_team4/labs/lab7/part1/questa
+Z7 8D:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd
+Z8 FD:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd
+l0
+L8 1
+VlQaLB_z6SbAWmJead7=2m3
+!s100 Qoj3XPn5SDUE<cN5nNX?a2
+Z9 OL;C;2021.2;73
+33
+b1
+Z10 !s110 1661124710
+!i10b 1
+Z11 !s108 1661124710.000000
+Z12 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd|
+Z13 !s107 D:\Digital_Design\pti22_team4\labs\lab7\part1\package.vhd|
+!i113 0
+Z14 o-work work -2008 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Bbody
+Z16 DPx4 work 9 mypackage 0 22 lQaLB_z6SbAWmJead7=2m3
+R1
+R2
+R3
+R4
+!i122 74
+l0
+L12 1
+V3Q3J?Ee=8AeU@[NzO>hLW3
+!s100 ;`?iaKKKRme7h6_K^SlD31
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Epart1
+Z17 w1660558607
+R3
+R4
+!i122 60
+R6
+Z18 8D:/Digital_Design/pti22_team4/labs/lab7/part1/part1.vhd
+Z19 FD:/Digital_Design/pti22_team4/labs/lab7/part1/part1.vhd
+l0
+L4 1
+VZiY:1[JO?ISK@]ASB0a^Z1
+!s100 ZP=;iP<zfhEJQbmA3:G>03
+R9
+32
+Z20 !s110 1661118606
+!i10b 1
+Z21 !s108 1661118606.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/Digital_Design/pti22_team4/labs/lab7/part1/part1.vhd|
+Z23 !s107 D:/Digital_Design/pti22_team4/labs/lab7/part1/part1.vhd|
+!i113 0
+Z24 o-work work -2002 -explicit
+R15
+Abehavior
+R3
+R4
+DEx4 work 5 part1 0 22 ZiY:1[JO?ISK@]ASB0a^Z1
+!i122 60
+l15
+L13 79
+VHKP?]Dc0jS;`8zU3LS7D;3
+!s100 h=elhk^YdZE>>WXlVT@JQ1
+R9
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R24
+R15
+Epart1_tb
+Z25 w1661124588
+R16
+R1
+R2
+R3
+R4
+!i122 75
+R6
+Z26 8D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd
+Z27 FD:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd
+l0
+L9 1
+Vk0S467[6^lLBd1HgF`XB12
+!s100 UYl;ZDngD;AUK9^jH_onZ1
+R9
+33
+Z28 !s110 1661124714
+!i10b 1
+Z29 !s108 1661124714.000000
+Z30 !s90 -reportprogress|300|-work|work|-2008|-explicit|-vopt|-stats=none|D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd|
+Z31 !s107 D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd|
+!i113 0
+R14
+R15
+Abehavior_tb
+R16
+R1
+R2
+R3
+R4
+DEx4 work 8 part1_tb 0 22 k0S467[6^lLBd1HgF`XB12
+!i122 75
+l28
+L12 70
+V8L]ln;IcgBO9e:J]4mC4E0
+!s100 [NAgP__YgfILLEMb<gg`f1
+R9
+33
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R14
+R15

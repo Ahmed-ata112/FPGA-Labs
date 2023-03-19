@@ -1,0 +1,2 @@
+vcom -work work -2008 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+

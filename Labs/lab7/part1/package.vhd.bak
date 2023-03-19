@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_textio.all;
+use ieee.numeric_std.all;
+library std;
+use std.textio.all;
+
+package myPackage is
+    variable linee : line;
+    file out_file : text open WRITE_MODE is "out.txt";
+    procedure print (w, z : in std_logic; state_out : in std_logic_vector(8 downto 0));
+  end package;
+  
+  package body myPackage is
+    procedure print (w, z : in std_logic; state_out : in std_logic_vector(8 downto 0)) is
+    begin
+      write(linee, "w = " & std_logic'image(w) & " and z = " & std_logic'image(z) & LF);
+      writeline(out_file, linee);
+    end procedure;
+  end package body;
+  

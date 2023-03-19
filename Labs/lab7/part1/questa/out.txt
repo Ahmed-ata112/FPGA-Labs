@@ -1,0 +1,18 @@
+w = '1', state_out = 100000000,and z = '1'
+
+w = '1', state_out = 100000000,and z = '1'
+
+w = '0', state_out = 000010000,and z = '1'
+
+w = '0', state_out = 000010000,and z = '1'
+
+w = '1', state_out = 001000000,and z = '0'
+
+w = '0', state_out = 000000010,and z = '0'
+
+w = '0', state_out = 000000100,and z = '0'
+
+w = '1', state_out = 000100000,and z = '0'
+
+w = '1', state_out = 000000001,and z = '0'
+

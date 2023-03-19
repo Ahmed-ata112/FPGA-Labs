@@ -1,0 +1,36 @@
+D:/Digital_Design/pti22_team4/labs/lab7/part1/part1.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none D:/Digital_Design/pti22_team4/labs/lab7/part1/part1.vhd
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity part1
+-- Compiling architecture behavior of part1
+
+} {} {}} D:/Digital_Design/pti22_team4/labs/lab7/part1/part1_tb.vhd {0 {vcom -work work -2002 -explicit -vopt -stats=none {D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd}
+Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity part1_tb
+-- Compiling architecture behavior_tb of part1_tb
+** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1136) Unknown identifier "to_hstring".
+** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1590) Bad expression in left operand of infix expression '&'.
+** Error: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(44): (vcom-1600) No feasible entries for subprogram "write".
+   Visible subprograms are:
+      (implicit) TEXTIO.write[std.TEXTIO.TEXT, std.STANDARD.STRING] at vhdl_src/std/textio.vhd(15)
+      (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(123)
+      (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BIT_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(126)
+      (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, BOOLEAN, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(129)
+      (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.CHARACTER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(132)
+      (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, INTEGER, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(135)
+      (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.REAL, std.TEXTIO.SIDE, NATURAL, NATURAL] at vhdl_src/std/textio.vhd(138)
+      (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.STRING, std.TEXTIO.SIDE, NATURAL] at vhdl_src/std/textio.vhd(145)
+      (explicit) TEXTIO.WRITE[std.TEXTIO.LINE, std.STANDARD.TIME, std.TEXTIO.SIDE, NATURAL, std.STANDARD.TIME] at vhdl_src/std/textio.vhd(148)
+      (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_ULOGIC, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(29)
+      (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_ULOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(31)
+      (explicit) std_logic_textio.WRITE[std.TEXTIO.LINE, STD_LOGIC_VECTOR, std.TEXTIO.SIDE, NATURAL] at vhdl_src/synopsys/std_logic_textio.vhd(37)
+** Note: D:\Digital_Design\pti22_team4\labs\lab7\part1\part1_tb.vhd(57): VHDL Compiler exiting
+
+} {10.0 13.0} {}}
